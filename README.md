@@ -2,8 +2,8 @@
 
 - STS 사용해서 추가시 
   - import > Check Out Maven Projects from SCM > git url 입력
-  <br/>demo-api : https://github.com/shlee0882/springboot-bo-default-setting.git
-  <br/>demo-bo  : https://github.com/shlee0882/springboot-api-default-setting.git
+  <br/>demo-api : https://github.com/shlee0882/springboot-api-default-setting.git
+  <br/>demo-bo  : https://github.com/shlee0882/springboot-bo-default-setting.git
 
 <br/>
 
