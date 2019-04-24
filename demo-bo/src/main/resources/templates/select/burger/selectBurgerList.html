@@ -1,0 +1,46 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="ko" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>burgerList</title>
+ 	<meta charset="utf-8"> 	 
+	<meta http-equiv="X-UA-Compatible" content="IE=edge/">	
+	<link rel="stylesheet" href="/demo-bo/webjars/bootstrap/4.1.0/css/bootstrap.min.css"> 
+	<script src="/demo-bo/webjars/jquery/3.3.1-1/jquery.min.js"></script>
+	<link rel="stylesheet" href="/demo-bo/webjars/bootstrap/4.1.0/css/bootstrap.min.css"> 
+	<script src="/demo-bo/webjars/bootstrap/4.1.0/js/bootstrap.min.js"></script>	
+	<script src="/demo-bo/js/commonUtil.js"></script>	
+	
+	<!-- 
+	<script type="text/javascript">
+	    function resizeWindow() {
+	        //문서가 열리면 해당 윈도우(창)을 최대화 시킴.	
+	        self.moveTo(0,0); //창위치
+	        self.resizeTo(screen.availWidth, screen.availHeight); //창크기
+	    }
+		window.onload = resizeWindow; //문서가 로드 완료후 resizeWindow 함수 호출
+	</script>
+	 -->	
+</head>
+<body style=margin:30px;>
+<script th:inline="javascript">
+	/*<![CDATA[*/			
+	    var msg = [[${msg}]];					
+	/*]]>*/
+	
+	if(msg != ""){
+		alert(msg);
+		window.open('about:blank','_self').self.close();
+	}	
+</script>
+<div class="container" style="margin-left: 0px; padding-left: 0px">
+	<div style="margin-top: 15px; margin-bottom:25px; padding-bottom: 5px">
+	    <div align="right" style="float: left;">
+			<button onclick="selectBurgerList()" type="button" class="btn btn-primary btn-sm" style="width: 70px; ">조회</button>
+	    </div>
+    </div>    
+</div>
+
+
+<script type="text/javascript" src="/demo-bo/js/burger/selectBurgerList.js"></script>
+</body>
+</html>

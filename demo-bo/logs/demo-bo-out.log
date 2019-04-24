@@ -1,0 +1,494 @@
+2019-04-22 15:24:13 [restartedMain] INFO  com.example.demo.DemoBoApplication - Starting DemoBoApplication on HCNPHSHLEE001 with PID 12140 (C:\springTest\workspace\demo-bo\target\classes started by shlee in C:\springTest\workspace\demo-bo) 
+2019-04-22 15:24:13 [restartedMain] INFO  com.example.demo.DemoBoApplication - The following profiles are active: local 
+2019-04-22 15:24:13 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2019-04-22 15:24:13 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2019-04-22 15:24:15 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8585 (http) 
+2019-04-22 15:24:15 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8585"] 
+2019-04-22 15:24:15 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2019-04-22 15:24:15 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17] 
+2019-04-22 15:24:15 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/demo-bo] - Initializing Spring embedded WebApplicationContext 
+2019-04-22 15:24:15 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1494 ms 
+2019-04-22 15:24:15 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-04-22 15:24:15 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server 
+2019-04-22 15:24:15 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8585"] 
+2019-04-22 15:24:15 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8585 (http) with context path '/demo-bo' 
+2019-04-22 15:24:15 [restartedMain] INFO  com.example.demo.DemoBoApplication - Started DemoBoApplication in 2.777 seconds (JVM running for 4.848) 
+2019-04-22 16:01:25 [http-nio-8585-exec-1] INFO  o.a.c.c.C.[.[localhost].[/demo-bo] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2019-04-22 16:01:25 [http-nio-8585-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2019-04-22 16:01:25 [http-nio-8585-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms 
+2019-04-22 16:01:50 [http-nio-8585-exec-4] INFO  c.e.d.b.c.StatisticsController - [StatisticsController] customerLoyalty/daily Page Call 
+2019-04-22 16:01:50 [http-nio-8585-exec-4] DEBUG c.e.d.b.c.StatisticsController - referer check => null 
+2019-04-22 16:03:32 [http-nio-8585-exec-8] INFO  c.e.d.b.c.StatisticsController - [StatisticsController] customerLoyalty/daily Page Call 
+2019-04-22 16:03:32 [http-nio-8585-exec-8] DEBUG c.e.d.b.c.StatisticsController - referer check => null 
+2019-04-22 16:04:05 [http-nio-8585-exec-10] INFO  c.e.d.b.c.StatisticsController - [StatisticsController] customerLoyalty/daily Page Call 
+2019-04-22 16:04:05 [http-nio-8585-exec-10] DEBUG c.e.d.b.c.StatisticsController - referer check => null 
+2019-04-22 16:08:31 [RMI TCP Connection(51)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested. 
+2019-04-22 16:08:31 [RMI TCP Connection(51)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-04-22 16:08:36 [restartedMain] INFO  com.example.demo.DemoBoApplication - Starting DemoBoApplication on HCNPHSHLEE001 with PID 7440 (C:\springTest\workspace\demo-bo\target\classes started by shlee in C:\springTest\workspace\demo-bo) 
+2019-04-22 16:08:36 [restartedMain] INFO  com.example.demo.DemoBoApplication - The following profiles are active: local 
+2019-04-22 16:08:36 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2019-04-22 16:08:36 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2019-04-22 16:08:38 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8585 (http) 
+2019-04-22 16:08:38 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8585"] 
+2019-04-22 16:08:38 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2019-04-22 16:08:38 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17] 
+2019-04-22 16:08:38 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/demo-bo] - Initializing Spring embedded WebApplicationContext 
+2019-04-22 16:08:38 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1328 ms 
+2019-04-22 16:08:38 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-04-22 16:08:38 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server 
+2019-04-22 16:08:38 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8585"] 
+2019-04-22 16:08:38 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8585 (http) with context path '/demo-bo' 
+2019-04-22 16:08:38 [restartedMain] INFO  com.example.demo.DemoBoApplication - Started DemoBoApplication in 2.607 seconds (JVM running for 3.77) 
+2019-04-22 16:08:46 [http-nio-8585-exec-1] INFO  o.a.c.c.C.[.[localhost].[/demo-bo] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2019-04-22 16:08:46 [http-nio-8585-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2019-04-22 16:08:46 [http-nio-8585-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms 
+2019-04-22 16:08:46 [http-nio-8585-exec-1] INFO  c.e.d.b.c.StatisticsController - [StatisticsController] customerLoyalty/daily Page Call 
+2019-04-22 16:08:46 [http-nio-8585-exec-1] DEBUG c.e.d.b.c.StatisticsController - referer check => null 
+2019-04-22 16:10:30 [http-nio-8585-exec-4] INFO  c.e.d.b.c.StatisticsController - [StatisticsController] customerLoyalty/daily Page Call 
+2019-04-22 16:10:30 [http-nio-8585-exec-4] DEBUG c.e.d.b.c.StatisticsController - referer check => null 
+2019-04-22 16:10:31 [http-nio-8585-exec-5] INFO  c.e.d.b.c.StatisticsController - [StatisticsController] customerLoyalty/daily Page Call 
+2019-04-22 16:10:31 [http-nio-8585-exec-5] DEBUG c.e.d.b.c.StatisticsController - referer check => null 
+2019-04-22 16:10:31 [http-nio-8585-exec-7] INFO  c.e.d.b.c.StatisticsController - [StatisticsController] customerLoyalty/daily Page Call 
+2019-04-22 16:10:31 [http-nio-8585-exec-7] DEBUG c.e.d.b.c.StatisticsController - referer check => null 
+2019-04-22 16:10:32 [http-nio-8585-exec-8] INFO  c.e.d.b.c.StatisticsController - [StatisticsController] customerLoyalty/daily Page Call 
+2019-04-22 16:10:32 [http-nio-8585-exec-8] DEBUG c.e.d.b.c.StatisticsController - referer check => null 
+2019-04-22 16:10:34 [http-nio-8585-exec-9] INFO  c.e.d.b.c.StatisticsController - [StatisticsController] customerLoyalty/daily Page Call 
+2019-04-22 16:10:34 [http-nio-8585-exec-9] DEBUG c.e.d.b.c.StatisticsController - referer check => null 
+2019-04-22 16:11:05 [http-nio-8585-exec-1] INFO  c.e.d.b.c.StatisticsController - [StatisticsController] customerLoyalty/daily Page Call 
+2019-04-22 16:11:05 [http-nio-8585-exec-1] DEBUG c.e.d.b.c.StatisticsController - referer check => null 
+2019-04-22 16:11:45 [http-nio-8585-exec-3] INFO  c.e.d.b.c.StatisticsController - [StatisticsController] customerLoyalty/daily Page Call 
+2019-04-22 16:11:45 [http-nio-8585-exec-3] DEBUG c.e.d.b.c.StatisticsController - referer check => null 
+2019-04-22 16:11:57 [http-nio-8585-exec-6] INFO  c.e.d.b.c.StatisticsController - [StatisticsController] customerLoyalty/daily Page Call 
+2019-04-22 16:11:57 [http-nio-8585-exec-6] DEBUG c.e.d.b.c.StatisticsController - referer check => null 
+2019-04-22 16:12:13 [http-nio-8585-exec-7] INFO  c.e.d.b.c.StatisticsController - [StatisticsController] customerLoyalty/daily Page Call 
+2019-04-22 16:12:13 [http-nio-8585-exec-7] DEBUG c.e.d.b.c.StatisticsController - referer check => null 
+2019-04-22 16:12:29 [http-nio-8585-exec-9] INFO  c.e.d.b.c.StatisticsController - [StatisticsController] customerLoyalty/daily Page Call 
+2019-04-22 16:12:29 [http-nio-8585-exec-9] DEBUG c.e.d.b.c.StatisticsController - referer check => null 
+2019-04-22 16:12:29 [http-nio-8585-exec-10] INFO  c.e.d.b.c.StatisticsController - [StatisticsController] customerLoyalty/daily Page Call 
+2019-04-22 16:12:29 [http-nio-8585-exec-10] DEBUG c.e.d.b.c.StatisticsController - referer check => null 
+2019-04-22 16:12:30 [http-nio-8585-exec-1] INFO  c.e.d.b.c.StatisticsController - [StatisticsController] customerLoyalty/daily Page Call 
+2019-04-22 16:12:30 [http-nio-8585-exec-1] DEBUG c.e.d.b.c.StatisticsController - referer check => null 
+2019-04-22 16:23:47 [Thread-3] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-04-22 16:23:48 [restartedMain] INFO  com.example.demo.DemoBoApplication - Starting DemoBoApplication on HCNPHSHLEE001 with PID 7440 (C:\springTest\workspace\demo-bo\target\classes started by shlee in C:\springTest\workspace\demo-bo) 
+2019-04-22 16:23:48 [restartedMain] INFO  com.example.demo.DemoBoApplication - The following profiles are active: local 
+2019-04-22 16:23:48 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8585 (http) 
+2019-04-22 16:23:48 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8585"] 
+2019-04-22 16:23:48 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2019-04-22 16:23:48 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17] 
+2019-04-22 16:23:48 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/demo-bo] - Initializing Spring embedded WebApplicationContext 
+2019-04-22 16:23:48 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 467 ms 
+2019-04-22 16:23:48 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-04-22 16:23:48 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server 
+2019-04-22 16:23:48 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8585"] 
+2019-04-22 16:23:48 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8585 (http) with context path '/demo-bo' 
+2019-04-22 16:23:48 [restartedMain] INFO  com.example.demo.DemoBoApplication - Started DemoBoApplication in 0.678 seconds (JVM running for 913.59) 
+2019-04-22 16:23:48 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2019-04-22 16:23:52 [Thread-14] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-04-22 16:23:52 [restartedMain] INFO  com.example.demo.DemoBoApplication - Starting DemoBoApplication on HCNPHSHLEE001 with PID 7440 (C:\springTest\workspace\demo-bo\target\classes started by shlee in C:\springTest\workspace\demo-bo) 
+2019-04-22 16:23:52 [restartedMain] INFO  com.example.demo.DemoBoApplication - The following profiles are active: local 
+2019-04-22 16:23:53 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8585 (http) 
+2019-04-22 16:23:53 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8585"] 
+2019-04-22 16:23:53 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2019-04-22 16:23:53 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17] 
+2019-04-22 16:23:53 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/demo-bo] - Initializing Spring embedded WebApplicationContext 
+2019-04-22 16:23:53 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 512 ms 
+2019-04-22 16:23:53 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-04-22 16:23:53 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server 
+2019-04-22 16:23:53 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8585"] 
+2019-04-22 16:23:53 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8585 (http) with context path '/demo-bo' 
+2019-04-22 16:23:53 [restartedMain] INFO  com.example.demo.DemoBoApplication - Started DemoBoApplication in 0.803 seconds (JVM running for 918.432) 
+2019-04-22 16:23:53 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2019-04-22 16:25:35 [Thread-23] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-04-22 16:25:35 [restartedMain] INFO  com.example.demo.DemoBoApplication - Starting DemoBoApplication on HCNPHSHLEE001 with PID 7440 (C:\springTest\workspace\demo-bo\target\classes started by shlee in C:\springTest\workspace\demo-bo) 
+2019-04-22 16:25:35 [restartedMain] INFO  com.example.demo.DemoBoApplication - The following profiles are active: local 
+2019-04-22 16:25:36 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8585 (http) 
+2019-04-22 16:25:36 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8585"] 
+2019-04-22 16:25:36 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2019-04-22 16:25:36 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17] 
+2019-04-22 16:25:36 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/demo-bo] - Initializing Spring embedded WebApplicationContext 
+2019-04-22 16:25:36 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 458 ms 
+2019-04-22 16:25:36 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-04-22 16:25:36 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server 
+2019-04-22 16:25:36 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8585"] 
+2019-04-22 16:25:36 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8585 (http) with context path '/demo-bo' 
+2019-04-22 16:25:36 [restartedMain] INFO  com.example.demo.DemoBoApplication - Started DemoBoApplication in 0.725 seconds (JVM running for 1021.234) 
+2019-04-22 16:25:36 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2019-04-22 16:26:34 [Thread-32] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-04-22 16:26:35 [restartedMain] INFO  com.example.demo.DemoBoApplication - Starting DemoBoApplication on HCNPHSHLEE001 with PID 7440 (C:\springTest\workspace\demo-bo\target\classes started by shlee in C:\springTest\workspace\demo-bo) 
+2019-04-22 16:26:35 [restartedMain] INFO  com.example.demo.DemoBoApplication - The following profiles are active: local 
+2019-04-22 16:26:35 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8585 (http) 
+2019-04-22 16:26:35 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8585"] 
+2019-04-22 16:26:35 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2019-04-22 16:26:35 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17] 
+2019-04-22 16:26:35 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/demo-bo] - Initializing Spring embedded WebApplicationContext 
+2019-04-22 16:26:35 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 613 ms 
+2019-04-22 16:26:35 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-04-22 16:26:35 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server 
+2019-04-22 16:26:35 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8585"] 
+2019-04-22 16:26:35 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8585 (http) with context path '/demo-bo' 
+2019-04-22 16:26:35 [restartedMain] INFO  com.example.demo.DemoBoApplication - Started DemoBoApplication in 0.84 seconds (JVM running for 1080.675) 
+2019-04-22 16:26:35 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2019-04-22 16:26:56 [Thread-41] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-04-22 16:26:57 [restartedMain] INFO  com.example.demo.DemoBoApplication - Starting DemoBoApplication on HCNPHSHLEE001 with PID 7440 (C:\springTest\workspace\demo-bo\target\classes started by shlee in C:\springTest\workspace\demo-bo) 
+2019-04-22 16:26:57 [restartedMain] INFO  com.example.demo.DemoBoApplication - The following profiles are active: local 
+2019-04-22 16:26:57 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8585 (http) 
+2019-04-22 16:26:57 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8585"] 
+2019-04-22 16:26:57 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2019-04-22 16:26:57 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17] 
+2019-04-22 16:26:57 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/demo-bo] - Initializing Spring embedded WebApplicationContext 
+2019-04-22 16:26:57 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 401 ms 
+2019-04-22 16:26:57 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-04-22 16:26:57 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server 
+2019-04-22 16:26:57 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8585"] 
+2019-04-22 16:26:57 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8585 (http) with context path '/demo-bo' 
+2019-04-22 16:26:57 [restartedMain] INFO  com.example.demo.DemoBoApplication - Started DemoBoApplication in 0.576 seconds (JVM running for 1102.55) 
+2019-04-22 16:26:57 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2019-04-22 16:27:29 [Thread-50] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-04-22 16:27:29 [restartedMain] INFO  com.example.demo.DemoBoApplication - Starting DemoBoApplication on HCNPHSHLEE001 with PID 7440 (C:\springTest\workspace\demo-bo\target\classes started by shlee in C:\springTest\workspace\demo-bo) 
+2019-04-22 16:27:29 [restartedMain] INFO  com.example.demo.DemoBoApplication - The following profiles are active: local 
+2019-04-22 16:27:29 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8585 (http) 
+2019-04-22 16:27:29 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8585"] 
+2019-04-22 16:27:29 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2019-04-22 16:27:29 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17] 
+2019-04-22 16:27:29 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/demo-bo] - Initializing Spring embedded WebApplicationContext 
+2019-04-22 16:27:29 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 405 ms 
+2019-04-22 16:27:29 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-04-22 16:27:30 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server 
+2019-04-22 16:27:30 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8585"] 
+2019-04-22 16:27:30 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8585 (http) with context path '/demo-bo' 
+2019-04-22 16:27:30 [restartedMain] INFO  com.example.demo.DemoBoApplication - Started DemoBoApplication in 0.586 seconds (JVM running for 1134.891) 
+2019-04-22 16:27:30 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2019-04-22 16:27:53 [RMI TCP Connection(37)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested. 
+2019-04-22 16:27:53 [RMI TCP Connection(37)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-04-22 16:27:59 [restartedMain] INFO  com.example.demo.DemoBoApplication - Starting DemoBoApplication on HCNPHSHLEE001 with PID 9128 (C:\springTest\workspace\demo-bo\target\classes started by shlee in C:\springTest\workspace\demo-bo) 
+2019-04-22 16:27:59 [restartedMain] INFO  com.example.demo.DemoBoApplication - The following profiles are active: local 
+2019-04-22 16:27:59 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2019-04-22 16:27:59 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2019-04-22 16:28:01 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8585 (http) 
+2019-04-22 16:28:01 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8585"] 
+2019-04-22 16:28:01 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2019-04-22 16:28:01 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17] 
+2019-04-22 16:28:01 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/demo-bo] - Initializing Spring embedded WebApplicationContext 
+2019-04-22 16:28:01 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1997 ms 
+2019-04-22 16:28:01 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-04-22 16:28:02 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server 
+2019-04-22 16:28:02 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8585"] 
+2019-04-22 16:28:02 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8585 (http) with context path '/demo-bo' 
+2019-04-22 16:28:02 [restartedMain] INFO  com.example.demo.DemoBoApplication - Started DemoBoApplication in 3.6 seconds (JVM running for 5.722) 
+2019-04-22 16:28:08 [http-nio-8585-exec-1] INFO  o.a.c.c.C.[.[localhost].[/demo-bo] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2019-04-22 16:28:08 [http-nio-8585-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2019-04-22 16:28:08 [http-nio-8585-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms 
+2019-04-22 16:28:08 [http-nio-8585-exec-1] INFO  c.e.d.b.c.StatisticsController - [StatisticsController] customerLoyalty/daily Page Call 
+2019-04-22 16:28:08 [http-nio-8585-exec-1] DEBUG c.e.d.b.c.StatisticsController - referer check => null 
+2019-04-22 16:32:51 [http-nio-8585-exec-7] INFO  c.e.d.b.c.StatisticsController - [StatisticsController] customerLoyalty/daily Page Call 
+2019-04-22 16:32:51 [http-nio-8585-exec-7] DEBUG c.e.d.b.c.StatisticsController - referer check => null 
+2019-04-22 16:32:58 [http-nio-8585-exec-9] DEBUG c.e.d.b.s.StatisticsServiceImpl - [StatisticsServiceImpl] getCustomerLoyaltyDailyInfoList (PAR)=> {} 
+2019-04-22 16:33:05 [http-nio-8585-exec-9] DEBUG c.e.d.b.s.StatisticsServiceImpl - [StatisticsServiceImpl] getCustomerLoyaltyDailyInfoList => api url: http://127.0.0.1:8001/demo-api/selectBurger/list  
+2019-04-22 16:33:34 [http-nio-8585-exec-9] DEBUG c.e.d.b.s.StatisticsServiceImpl - response=> [{"productNo":1,"chainNo":"1","chainName":"맥도날드","menuName":"빅맥","singlePrice":"4900","setPrice":"4900","calory":"514","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/QLQOzWl.png","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":2,"chainNo":"1","chainName":"맥도날드","menuName":"맥스파이시 상하이","singlePrice":"4500","setPrice":"4900","calory":"467","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/pzdNKMr.png","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":3,"chainNo":"1","chainName":"맥도날드","menuName":"함박버거","singlePrice":"3500","setPrice":"4300","calory":"412","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/rpGn3fu.png","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":4,"chainNo":"1","chainName":"맥도날드","menuName":"토마토디럭스","singlePrice":"5000","setPrice":"6600","calory":"522","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/Yx7jHF1.png","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":5,"chainNo":"1","chainName":"맥도날드","menuName":"골든에그치즈","singlePrice":"7600","setPrice":"9000","calory":"707","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/PJgj7Fn.png","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":6,"chainNo":"1","chainName":"맥도날드","menuName":"더블1955","singlePrice":"6600","setPrice":"8000","calory":"724","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/oj1X1b8.png","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":23,"chainNo":"1","chainName":"맥도날드","menuName":"쿼터파운드","singlePrice":"4800","setPrice":"5800","calory":"577","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/woFBV1b.png","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":24,"chainNo":"1","chainName":"맥도날드","menuName":"메가맥","singlePrice":"8000","setPrice":"9000","calory":"807","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/nJFV08c.png","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":25,"chainNo":"1","chainName":"맥도날드","menuName":"그릴드 머쉬룸","singlePrice":"7000","setPrice":"8000","calory":"780","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/5AJxan1.png","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":26,"chainNo":"1","chainName":"맥도날드","menuName":"슈슈버거","singlePrice":"4900","setPrice":"6600","calory":"558","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/JmtZeIT.png","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":27,"chainNo":"1","chainName":"맥도날드","menuName":"햄버거","singlePrice":"4600","setPrice":"4900","calory":"476","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/QgUdbqM.png","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":28,"chainNo":"1","chainName":"맥도날드","menuName":"슈비버거","singlePrice":"4900","setPrice":"5500","calory":"577","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/giNge5P.png","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":29,"chainNo":"1","chainName":"맥도날드","menuName":"크리스피 치킨","singlePrice":"5500","setPrice":"6600","calory":"580","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/271FQYX.png","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":7,"chainNo":"2","chainName":"롯데리아","menuName":"불고기버거","singlePrice":"3800","setPrice":"5800","calory":"442","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/pObRYbX.jpg","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":8,"chainNo":"2","chainName":"롯데리아","menuName":"와규","singlePrice":"3000","setPrice":"4500","calory":"500","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/mGbQtXz.jpg","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":9,"chainNo":"2","chainName":"롯데리아","menuName":"t-rex","singlePrice":"123","setPrice":"456","calory":"777","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/uGaSOwZ.jpg","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":10,"chainNo":"2","chainName":"롯데리아","menuName":"새우버거","singlePrice":"4800","setPrice":"5900","calory":"560","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/JFHz7gj.jpg","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":11,"chainNo":"2","chainName":"롯데리아","menuName":"모쩨렐라","singlePrice":"3900","setPrice":"4500","calory":"567","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/eM7g9xi.jpg","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":13,"chainNo":"2","chainName":"롯데리아","menuName":"모짜더블","singlePrice":"3900","setPrice":"4500","calory":"574","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/W7Jcnv4.jpg","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":14,"chainNo":"2","chainName":"롯데리아","menuName":"모짜 베이컨","singlePrice":"4700","setPrice":"6600","calory":"785","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/o2fUHAj.jpg","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":15,"chainNo":"2","chainName":"롯데리아","menuName":"핫 크리스피","singlePrice":"4800","setPrice":"5500","calory":"465","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/eW9mBu2.jpg","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":16,"chainNo":"2","chainName":"롯데리아","menuName":"한우 불고기","singlePrice":"6000","setPrice":"7800","calory":"755","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/ss2KEXW.jpg","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":17,"chainNo":"2","chainName":"롯데리아","menuName":"클래식 치즈","singlePrice":"6600","setPrice":"7700","calory":"777","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/I3IqRxO.jpg","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":18,"chainNo":"2","chainName":"롯데리아","menuName":"치킨버거","singlePrice":"4500","setPrice":"6800","calory":"453","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/MqWgvow.jpg","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":19,"chainNo":"2","chainName":"롯데리아","menuName":"불고기버거","singlePrice":"3500","setPrice":"4500","calory":"580","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/5edv5B4.jpg","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":20,"chainNo":"2","chainName":"롯데리아","menuName":"빅불","singlePrice":"4800","setPrice":"5900","calory":"580","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/kzUvBJm.jpg","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":21,"chainNo":"2","chainName":"롯데리아","menuName":"바베큐버거","singlePrice":"4600","setPrice":"6700","calory":"574","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/mpZNfPb.jpg","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":22,"chainNo":"2","chainName":"롯데리아","menuName":"az버거","singlePrice":"6000","setPrice":"7000","calory":"897","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/JzZEk1C.jpg","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":30,"chainNo":"3","chainName":"버거킹","menuName":"와퍼","singlePrice":"6600","setPrice":"7600","calory":"680","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/fNN6tPe.png","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":31,"chainNo":"4","chainName":"맘스터치","menuName":"싸이버거","singlePrice":"4800","setPrice":"5800","calory":"660","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/DvOfUax.jpg","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null}] 
+2019-04-22 16:34:56 [Thread-2] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-04-22 16:34:56 [restartedMain] INFO  com.example.demo.DemoBoApplication - Starting DemoBoApplication on HCNPHSHLEE001 with PID 9128 (C:\springTest\workspace\demo-bo\target\classes started by shlee in C:\springTest\workspace\demo-bo) 
+2019-04-22 16:34:56 [restartedMain] INFO  com.example.demo.DemoBoApplication - The following profiles are active: local 
+2019-04-22 16:34:57 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8585 (http) 
+2019-04-22 16:34:57 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8585"] 
+2019-04-22 16:34:57 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2019-04-22 16:34:57 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17] 
+2019-04-22 16:34:57 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/demo-bo] - Initializing Spring embedded WebApplicationContext 
+2019-04-22 16:34:57 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 678 ms 
+2019-04-22 16:34:57 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-04-22 16:34:57 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server 
+2019-04-22 16:34:57 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8585"] 
+2019-04-22 16:34:57 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8585 (http) with context path '/demo-bo' 
+2019-04-22 16:34:57 [restartedMain] INFO  com.example.demo.DemoBoApplication - Started DemoBoApplication in 0.963 seconds (JVM running for 421.035) 
+2019-04-22 16:34:57 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2019-04-22 16:35:13 [Thread-14] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-04-22 16:35:13 [restartedMain] INFO  com.example.demo.DemoBoApplication - Starting DemoBoApplication on HCNPHSHLEE001 with PID 9128 (C:\springTest\workspace\demo-bo\target\classes started by shlee in C:\springTest\workspace\demo-bo) 
+2019-04-22 16:35:13 [restartedMain] INFO  com.example.demo.DemoBoApplication - The following profiles are active: local 
+2019-04-22 16:35:14 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8585 (http) 
+2019-04-22 16:35:14 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8585"] 
+2019-04-22 16:35:14 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2019-04-22 16:35:14 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17] 
+2019-04-22 16:35:14 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/demo-bo] - Initializing Spring embedded WebApplicationContext 
+2019-04-22 16:35:14 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 594 ms 
+2019-04-22 16:35:14 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-04-22 16:35:14 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server 
+2019-04-22 16:35:14 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8585"] 
+2019-04-22 16:35:14 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8585 (http) with context path '/demo-bo' 
+2019-04-22 16:35:14 [restartedMain] INFO  com.example.demo.DemoBoApplication - Started DemoBoApplication in 0.857 seconds (JVM running for 438.144) 
+2019-04-22 16:35:14 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2019-04-22 16:35:25 [Thread-23] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-04-22 16:35:25 [restartedMain] INFO  com.example.demo.DemoBoApplication - Starting DemoBoApplication on HCNPHSHLEE001 with PID 9128 (C:\springTest\workspace\demo-bo\target\classes started by shlee in C:\springTest\workspace\demo-bo) 
+2019-04-22 16:35:25 [restartedMain] INFO  com.example.demo.DemoBoApplication - The following profiles are active: local 
+2019-04-22 16:35:26 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8585 (http) 
+2019-04-22 16:35:26 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8585"] 
+2019-04-22 16:35:26 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2019-04-22 16:35:26 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17] 
+2019-04-22 16:35:26 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/demo-bo] - Initializing Spring embedded WebApplicationContext 
+2019-04-22 16:35:26 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 605 ms 
+2019-04-22 16:35:26 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-04-22 16:35:26 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server 
+2019-04-22 16:35:26 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8585"] 
+2019-04-22 16:35:26 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8585 (http) with context path '/demo-bo' 
+2019-04-22 16:35:26 [restartedMain] INFO  com.example.demo.DemoBoApplication - Started DemoBoApplication in 0.943 seconds (JVM running for 450.152) 
+2019-04-22 16:35:26 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2019-04-22 16:36:19 [Thread-32] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-04-22 16:36:20 [restartedMain] INFO  com.example.demo.DemoBoApplication - Starting DemoBoApplication on HCNPHSHLEE001 with PID 9128 (C:\springTest\workspace\demo-bo\target\classes started by shlee in C:\springTest\workspace\demo-bo) 
+2019-04-22 16:36:20 [restartedMain] INFO  com.example.demo.DemoBoApplication - The following profiles are active: local 
+2019-04-22 16:36:21 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8585 (http) 
+2019-04-22 16:36:21 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8585"] 
+2019-04-22 16:36:21 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2019-04-22 16:36:21 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17] 
+2019-04-22 16:36:21 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/demo-bo] - Initializing Spring embedded WebApplicationContext 
+2019-04-22 16:36:21 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 648 ms 
+2019-04-22 16:36:21 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-04-22 16:36:21 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server 
+2019-04-22 16:36:21 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8585"] 
+2019-04-22 16:36:21 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8585 (http) with context path '/demo-bo' 
+2019-04-22 16:36:21 [restartedMain] INFO  com.example.demo.DemoBoApplication - Started DemoBoApplication in 0.923 seconds (JVM running for 504.856) 
+2019-04-22 16:36:21 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2019-04-22 16:36:26 [Thread-43] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-04-22 16:36:27 [restartedMain] INFO  com.example.demo.DemoBoApplication - Starting DemoBoApplication on HCNPHSHLEE001 with PID 9128 (C:\springTest\workspace\demo-bo\target\classes started by shlee in C:\springTest\workspace\demo-bo) 
+2019-04-22 16:36:27 [restartedMain] INFO  com.example.demo.DemoBoApplication - The following profiles are active: local 
+2019-04-22 16:36:27 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8585 (http) 
+2019-04-22 16:36:27 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8585"] 
+2019-04-22 16:36:27 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2019-04-22 16:36:27 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17] 
+2019-04-22 16:36:27 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/demo-bo] - Initializing Spring embedded WebApplicationContext 
+2019-04-22 16:36:27 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 557 ms 
+2019-04-22 16:36:27 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-04-22 16:36:27 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server 
+2019-04-22 16:36:27 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8585"] 
+2019-04-22 16:36:27 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8585 (http) with context path '/demo-bo' 
+2019-04-22 16:36:27 [restartedMain] INFO  com.example.demo.DemoBoApplication - Started DemoBoApplication in 0.804 seconds (JVM running for 511.482) 
+2019-04-22 16:36:27 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2019-04-22 16:36:33 [Thread-53] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-04-22 16:36:33 [restartedMain] INFO  com.example.demo.DemoBoApplication - Starting DemoBoApplication on HCNPHSHLEE001 with PID 9128 (C:\springTest\workspace\demo-bo\target\classes started by shlee in C:\springTest\workspace\demo-bo) 
+2019-04-22 16:36:33 [restartedMain] INFO  com.example.demo.DemoBoApplication - The following profiles are active: local 
+2019-04-22 16:36:34 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8585 (http) 
+2019-04-22 16:36:34 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8585"] 
+2019-04-22 16:36:34 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2019-04-22 16:36:34 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17] 
+2019-04-22 16:36:34 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/demo-bo] - Initializing Spring embedded WebApplicationContext 
+2019-04-22 16:36:34 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 707 ms 
+2019-04-22 16:36:34 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-04-22 16:36:34 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server 
+2019-04-22 16:36:34 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8585"] 
+2019-04-22 16:36:34 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8585 (http) with context path '/demo-bo' 
+2019-04-22 16:36:34 [restartedMain] INFO  com.example.demo.DemoBoApplication - Started DemoBoApplication in 1.032 seconds (JVM running for 518.323) 
+2019-04-22 16:36:34 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2019-04-22 16:36:58 [Thread-62] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-04-22 16:36:59 [restartedMain] INFO  com.example.demo.DemoBoApplication - Starting DemoBoApplication on HCNPHSHLEE001 with PID 9128 (C:\springTest\workspace\demo-bo\target\classes started by shlee in C:\springTest\workspace\demo-bo) 
+2019-04-22 16:36:59 [restartedMain] INFO  com.example.demo.DemoBoApplication - The following profiles are active: local 
+2019-04-22 16:36:59 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8585 (http) 
+2019-04-22 16:36:59 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8585"] 
+2019-04-22 16:36:59 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2019-04-22 16:36:59 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17] 
+2019-04-22 16:36:59 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/demo-bo] - Initializing Spring embedded WebApplicationContext 
+2019-04-22 16:36:59 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 597 ms 
+2019-04-22 16:36:59 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-04-22 16:37:00 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server 
+2019-04-22 16:37:00 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8585"] 
+2019-04-22 16:37:00 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8585 (http) with context path '/demo-bo' 
+2019-04-22 16:37:00 [restartedMain] INFO  com.example.demo.DemoBoApplication - Started DemoBoApplication in 0.856 seconds (JVM running for 543.63) 
+2019-04-22 16:37:00 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2019-04-22 16:37:02 [Thread-71] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-04-22 16:37:02 [restartedMain] INFO  com.example.demo.DemoBoApplication - Starting DemoBoApplication on HCNPHSHLEE001 with PID 9128 (C:\springTest\workspace\demo-bo\target\classes started by shlee in C:\springTest\workspace\demo-bo) 
+2019-04-22 16:37:02 [restartedMain] INFO  com.example.demo.DemoBoApplication - The following profiles are active: local 
+2019-04-22 16:37:03 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8585 (http) 
+2019-04-22 16:37:03 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8585"] 
+2019-04-22 16:37:03 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2019-04-22 16:37:03 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17] 
+2019-04-22 16:37:03 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/demo-bo] - Initializing Spring embedded WebApplicationContext 
+2019-04-22 16:37:03 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 527 ms 
+2019-04-22 16:37:03 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-04-22 16:37:03 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server 
+2019-04-22 16:37:03 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8585"] 
+2019-04-22 16:37:03 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8585 (http) with context path '/demo-bo' 
+2019-04-22 16:37:03 [restartedMain] INFO  com.example.demo.DemoBoApplication - Started DemoBoApplication in 0.779 seconds (JVM running for 547.243) 
+2019-04-22 16:37:03 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2019-04-22 16:37:24 [Thread-82] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-04-22 16:37:24 [restartedMain] INFO  com.example.demo.DemoBoApplication - Starting DemoBoApplication on HCNPHSHLEE001 with PID 9128 (C:\springTest\workspace\demo-bo\target\classes started by shlee in C:\springTest\workspace\demo-bo) 
+2019-04-22 16:37:24 [restartedMain] INFO  com.example.demo.DemoBoApplication - The following profiles are active: local 
+2019-04-22 17:12:48 [restartedMain] INFO  com.example.demo.DemoBoApplication - Starting DemoBoApplication on HCNPHSHLEE001 with PID 11788 (C:\springTest\workspace\demo-bo\target\classes started by shlee in C:\springTest\workspace\demo-bo) 
+2019-04-22 17:12:48 [restartedMain] INFO  com.example.demo.DemoBoApplication - The following profiles are active: local 
+2019-04-22 17:12:48 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2019-04-22 17:12:48 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2019-04-22 17:12:49 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8585 (http) 
+2019-04-22 17:12:49 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8585"] 
+2019-04-22 17:12:49 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2019-04-22 17:12:49 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17] 
+2019-04-22 17:12:49 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/demo-bo] - Initializing Spring embedded WebApplicationContext 
+2019-04-22 17:12:49 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1549 ms 
+2019-04-22 17:12:50 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-04-22 17:12:50 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server 
+2019-04-22 17:12:50 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8585"] 
+2019-04-22 17:12:50 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8585 (http) with context path '/demo-bo' 
+2019-04-22 17:12:50 [restartedMain] INFO  com.example.demo.DemoBoApplication - Started DemoBoApplication in 2.941 seconds (JVM running for 5.338) 
+2019-04-22 17:12:54 [http-nio-8585-exec-2] INFO  o.a.c.c.C.[.[localhost].[/demo-bo] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2019-04-22 17:12:54 [http-nio-8585-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2019-04-22 17:12:54 [http-nio-8585-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms 
+2019-04-22 17:13:09 [http-nio-8585-exec-3] INFO  c.e.d.b.c.SelectBurgerController - [SelectBurgerController] selectBurgerList 
+2019-04-22 17:13:09 [http-nio-8585-exec-3] DEBUG c.e.d.b.c.SelectBurgerController - referer check => null 
+2019-04-22 17:13:09 [http-nio-8585-exec-3] DEBUG c.e.d.b.s.SelectBurgerServiceImpl - [StatisticsServiceImpl] getCustomerLoyaltyDailyInfoList (PAR)=> {} 
+2019-04-22 17:13:13 [http-nio-8585-exec-3] DEBUG c.e.d.b.s.SelectBurgerServiceImpl - [StatisticsServiceImpl] getCustomerLoyaltyDailyInfoList => api url: http://127.0.0.1:8001/demo-api/selectBurger/list  
+2019-04-22 17:25:43 [restartedMain] INFO  com.example.demo.DemoBoApplication - Starting DemoBoApplication on HCNPHSHLEE001 with PID 12828 (C:\springTest\workspace\demo-bo\target\classes started by shlee in C:\springTest\workspace\demo-bo) 
+2019-04-22 17:25:43 [restartedMain] INFO  com.example.demo.DemoBoApplication - The following profiles are active: local 
+2019-04-22 17:25:43 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2019-04-22 17:25:43 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2019-04-22 17:25:44 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8585 (http) 
+2019-04-22 17:25:45 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8585"] 
+2019-04-22 17:25:45 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2019-04-22 17:25:45 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17] 
+2019-04-22 17:25:45 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/demo-bo] - Initializing Spring embedded WebApplicationContext 
+2019-04-22 17:25:45 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1616 ms 
+2019-04-22 17:25:45 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-04-22 17:25:45 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server 
+2019-04-22 17:25:45 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8585"] 
+2019-04-22 17:25:45 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8585 (http) with context path '/demo-bo' 
+2019-04-22 17:25:45 [restartedMain] INFO  com.example.demo.DemoBoApplication - Started DemoBoApplication in 2.968 seconds (JVM running for 4.229) 
+2019-04-22 17:25:51 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested. 
+2019-04-22 17:25:51 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-04-22 17:35:17 [restartedMain] INFO  com.example.demo.DemoBoApplication - Starting DemoBoApplication on HCNPHSHLEE001 with PID 12656 (C:\springTest\workspace\demo-bo\target\classes started by shlee in C:\springTest\workspace\demo-bo) 
+2019-04-22 17:35:17 [restartedMain] INFO  com.example.demo.DemoBoApplication - The following profiles are active: local 
+2019-04-22 17:35:17 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2019-04-22 17:35:17 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2019-04-22 17:35:19 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8585 (http) 
+2019-04-22 17:35:19 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8585"] 
+2019-04-22 17:35:19 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2019-04-22 17:35:19 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17] 
+2019-04-22 17:35:19 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/demo-bo] - Initializing Spring embedded WebApplicationContext 
+2019-04-22 17:35:19 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1886 ms 
+2019-04-22 17:35:19 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-04-22 17:35:19 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server 
+2019-04-22 17:35:20 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8585"] 
+2019-04-22 17:35:20 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8585 (http) with context path '/demo-bo' 
+2019-04-22 17:35:20 [restartedMain] INFO  com.example.demo.DemoBoApplication - Started DemoBoApplication in 3.622 seconds (JVM running for 5.112) 
+2019-04-22 17:35:28 [http-nio-8585-exec-2] INFO  o.a.c.c.C.[.[localhost].[/demo-bo] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2019-04-22 17:35:28 [http-nio-8585-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2019-04-22 17:35:28 [http-nio-8585-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 9 ms 
+2019-04-22 17:35:28 [http-nio-8585-exec-2] INFO  c.e.d.b.c.SelectBurgerController - [SelectBurgerController] selectBurgerList 
+2019-04-22 17:35:28 [http-nio-8585-exec-2] DEBUG c.e.d.b.c.SelectBurgerController - referer check => null 
+2019-04-22 17:35:28 [http-nio-8585-exec-2] DEBUG c.e.d.b.s.SelectBurgerServiceImpl - [SelectBurgerServiceImpl] getBurgerInfoList (PAR)=> {} 
+2019-04-22 17:35:34 [http-nio-8585-exec-2] DEBUG c.e.d.b.s.SelectBurgerServiceImpl - [SelectBurgerServiceImpl] getBurgerInfoList => api url: http://127.0.0.1:8001/demo-api/selectBurger/list  
+2019-04-22 17:35:47 [http-nio-8585-exec-2] DEBUG c.e.d.b.s.SelectBurgerServiceImpl - response=> [{"productNo":1,"chainNo":"1","chainName":"맥도날드","menuName":"빅맥","singlePrice":"4900","setPrice":"4900","calory":"514","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/QLQOzWl.png","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":2,"chainNo":"1","chainName":"맥도날드","menuName":"맥스파이시 상하이","singlePrice":"4500","setPrice":"4900","calory":"467","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/pzdNKMr.png","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":3,"chainNo":"1","chainName":"맥도날드","menuName":"함박버거","singlePrice":"3500","setPrice":"4300","calory":"412","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/rpGn3fu.png","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":4,"chainNo":"1","chainName":"맥도날드","menuName":"토마토디럭스","singlePrice":"5000","setPrice":"6600","calory":"522","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/Yx7jHF1.png","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":5,"chainNo":"1","chainName":"맥도날드","menuName":"골든에그치즈","singlePrice":"7600","setPrice":"9000","calory":"707","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/PJgj7Fn.png","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":6,"chainNo":"1","chainName":"맥도날드","menuName":"더블1955","singlePrice":"6600","setPrice":"8000","calory":"724","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/oj1X1b8.png","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":23,"chainNo":"1","chainName":"맥도날드","menuName":"쿼터파운드","singlePrice":"4800","setPrice":"5800","calory":"577","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/woFBV1b.png","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":24,"chainNo":"1","chainName":"맥도날드","menuName":"메가맥","singlePrice":"8000","setPrice":"9000","calory":"807","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/nJFV08c.png","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":25,"chainNo":"1","chainName":"맥도날드","menuName":"그릴드 머쉬룸","singlePrice":"7000","setPrice":"8000","calory":"780","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/5AJxan1.png","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":26,"chainNo":"1","chainName":"맥도날드","menuName":"슈슈버거","singlePrice":"4900","setPrice":"6600","calory":"558","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/JmtZeIT.png","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":27,"chainNo":"1","chainName":"맥도날드","menuName":"햄버거","singlePrice":"4600","setPrice":"4900","calory":"476","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/QgUdbqM.png","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":28,"chainNo":"1","chainName":"맥도날드","menuName":"슈비버거","singlePrice":"4900","setPrice":"5500","calory":"577","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/giNge5P.png","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":29,"chainNo":"1","chainName":"맥도날드","menuName":"크리스피 치킨","singlePrice":"5500","setPrice":"6600","calory":"580","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/271FQYX.png","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":7,"chainNo":"2","chainName":"롯데리아","menuName":"불고기버거","singlePrice":"3800","setPrice":"5800","calory":"442","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/pObRYbX.jpg","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":8,"chainNo":"2","chainName":"롯데리아","menuName":"와규","singlePrice":"3000","setPrice":"4500","calory":"500","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/mGbQtXz.jpg","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":9,"chainNo":"2","chainName":"롯데리아","menuName":"t-rex","singlePrice":"123","setPrice":"456","calory":"777","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/uGaSOwZ.jpg","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":10,"chainNo":"2","chainName":"롯데리아","menuName":"새우버거","singlePrice":"4800","setPrice":"5900","calory":"560","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/JFHz7gj.jpg","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":11,"chainNo":"2","chainName":"롯데리아","menuName":"모쩨렐라","singlePrice":"3900","setPrice":"4500","calory":"567","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/eM7g9xi.jpg","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":13,"chainNo":"2","chainName":"롯데리아","menuName":"모짜더블","singlePrice":"3900","setPrice":"4500","calory":"574","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/W7Jcnv4.jpg","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":14,"chainNo":"2","chainName":"롯데리아","menuName":"모짜 베이컨","singlePrice":"4700","setPrice":"6600","calory":"785","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/o2fUHAj.jpg","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":15,"chainNo":"2","chainName":"롯데리아","menuName":"핫 크리스피","singlePrice":"4800","setPrice":"5500","calory":"465","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/eW9mBu2.jpg","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":16,"chainNo":"2","chainName":"롯데리아","menuName":"한우 불고기","singlePrice":"6000","setPrice":"7800","calory":"755","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/ss2KEXW.jpg","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":17,"chainNo":"2","chainName":"롯데리아","menuName":"클래식 치즈","singlePrice":"6600","setPrice":"7700","calory":"777","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/I3IqRxO.jpg","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":18,"chainNo":"2","chainName":"롯데리아","menuName":"치킨버거","singlePrice":"4500","setPrice":"6800","calory":"453","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/MqWgvow.jpg","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":19,"chainNo":"2","chainName":"롯데리아","menuName":"불고기버거","singlePrice":"3500","setPrice":"4500","calory":"580","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/5edv5B4.jpg","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":20,"chainNo":"2","chainName":"롯데리아","menuName":"빅불","singlePrice":"4800","setPrice":"5900","calory":"580","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/kzUvBJm.jpg","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":21,"chainNo":"2","chainName":"롯데리아","menuName":"바베큐버거","singlePrice":"4600","setPrice":"6700","calory":"574","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/mpZNfPb.jpg","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":22,"chainNo":"2","chainName":"롯데리아","menuName":"az버거","singlePrice":"6000","setPrice":"7000","calory":"897","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/JzZEk1C.jpg","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":30,"chainNo":"3","chainName":"버거킹","menuName":"와퍼","singlePrice":"6600","setPrice":"7600","calory":"680","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/fNN6tPe.png","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":31,"chainNo":"4","chainName":"맘스터치","menuName":"싸이버거","singlePrice":"4800","setPrice":"5800","calory":"660","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/DvOfUax.jpg","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null}] 
+2019-04-22 17:40:54 [Thread-2] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-04-22 17:40:55 [restartedMain] INFO  com.example.demo.DemoBoApplication - Starting DemoBoApplication on HCNPHSHLEE001 with PID 12656 (C:\springTest\workspace\demo-bo\target\classes started by shlee in C:\springTest\workspace\demo-bo) 
+2019-04-22 17:40:55 [restartedMain] INFO  com.example.demo.DemoBoApplication - The following profiles are active: local 
+2019-04-22 17:40:55 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8585 (http) 
+2019-04-22 17:40:55 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8585"] 
+2019-04-22 17:40:55 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2019-04-22 17:40:55 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17] 
+2019-04-22 17:40:55 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/demo-bo] - Initializing Spring embedded WebApplicationContext 
+2019-04-22 17:40:55 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 550 ms 
+2019-04-22 17:40:55 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-04-22 17:40:55 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server 
+2019-04-22 17:40:55 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8585"] 
+2019-04-22 17:40:55 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8585 (http) with context path '/demo-bo' 
+2019-04-22 17:40:55 [restartedMain] INFO  com.example.demo.DemoBoApplication - Started DemoBoApplication in 0.817 seconds (JVM running for 340.69) 
+2019-04-22 17:40:55 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2019-04-22 17:41:01 [restartedMain] INFO  com.example.demo.DemoBoApplication - Starting DemoBoApplication on HCNPHSHLEE001 with PID 14324 (C:\springTest\workspace\demo-bo\target\classes started by shlee in C:\springTest\workspace\demo-bo) 
+2019-04-22 17:41:01 [restartedMain] INFO  com.example.demo.DemoBoApplication - The following profiles are active: local 
+2019-04-22 17:41:01 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2019-04-22 17:41:01 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2019-04-22 17:41:02 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8585 (http) 
+2019-04-22 17:41:02 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8585"] 
+2019-04-22 17:41:02 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2019-04-22 17:41:02 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17] 
+2019-04-22 17:41:03 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/demo-bo] - Initializing Spring embedded WebApplicationContext 
+2019-04-22 17:41:03 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1900 ms 
+2019-04-22 17:41:03 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-04-22 17:41:03 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server 
+2019-04-22 17:41:03 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8585"] 
+2019-04-22 17:41:03 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8585 (http) with context path '/demo-bo' 
+2019-04-22 17:41:03 [restartedMain] INFO  com.example.demo.DemoBoApplication - Started DemoBoApplication in 3.595 seconds (JVM running for 5.03) 
+2019-04-22 17:55:07 [http-nio-8585-exec-2] INFO  o.a.c.c.C.[.[localhost].[/demo-bo] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2019-04-22 17:55:07 [http-nio-8585-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2019-04-22 17:55:07 [http-nio-8585-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 9 ms 
+2019-04-22 17:55:07 [http-nio-8585-exec-2] INFO  c.e.d.b.c.SelectBurgerController - [SelectBurgerController] selectBurgerList 
+2019-04-22 17:55:07 [http-nio-8585-exec-2] DEBUG c.e.d.b.c.SelectBurgerController - referer check => null 
+2019-04-22 17:55:15 [http-nio-8585-exec-5] DEBUG c.e.d.b.s.SelectBurgerServiceImpl - [SelectBurgerServiceImpl] getBurgerInfoList (PAR)=> {} 
+2019-04-22 17:55:15 [http-nio-8585-exec-5] DEBUG c.e.d.b.s.SelectBurgerServiceImpl - [SelectBurgerServiceImpl] getBurgerInfoList => api url: http://127.0.0.1:8001/demo-api/selectBurger/list  
+2019-04-22 17:55:15 [http-nio-8585-exec-5] DEBUG c.e.d.b.s.SelectBurgerServiceImpl - response=> [{"productNo":1,"chainNo":"1","chainName":"맥도날드","menuName":"빅맥","singlePrice":"4900","setPrice":"4900","calory":"514","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/QLQOzWl.png","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":2,"chainNo":"1","chainName":"맥도날드","menuName":"맥스파이시 상하이","singlePrice":"4500","setPrice":"4900","calory":"467","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/pzdNKMr.png","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":3,"chainNo":"1","chainName":"맥도날드","menuName":"함박버거","singlePrice":"3500","setPrice":"4300","calory":"412","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/rpGn3fu.png","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":4,"chainNo":"1","chainName":"맥도날드","menuName":"토마토디럭스","singlePrice":"5000","setPrice":"6600","calory":"522","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/Yx7jHF1.png","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":5,"chainNo":"1","chainName":"맥도날드","menuName":"골든에그치즈","singlePrice":"7600","setPrice":"9000","calory":"707","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/PJgj7Fn.png","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":6,"chainNo":"1","chainName":"맥도날드","menuName":"더블1955","singlePrice":"6600","setPrice":"8000","calory":"724","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/oj1X1b8.png","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":23,"chainNo":"1","chainName":"맥도날드","menuName":"쿼터파운드","singlePrice":"4800","setPrice":"5800","calory":"577","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/woFBV1b.png","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":24,"chainNo":"1","chainName":"맥도날드","menuName":"메가맥","singlePrice":"8000","setPrice":"9000","calory":"807","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/nJFV08c.png","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":25,"chainNo":"1","chainName":"맥도날드","menuName":"그릴드 머쉬룸","singlePrice":"7000","setPrice":"8000","calory":"780","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/5AJxan1.png","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":26,"chainNo":"1","chainName":"맥도날드","menuName":"슈슈버거","singlePrice":"4900","setPrice":"6600","calory":"558","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/JmtZeIT.png","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":27,"chainNo":"1","chainName":"맥도날드","menuName":"햄버거","singlePrice":"4600","setPrice":"4900","calory":"476","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/QgUdbqM.png","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":28,"chainNo":"1","chainName":"맥도날드","menuName":"슈비버거","singlePrice":"4900","setPrice":"5500","calory":"577","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/giNge5P.png","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":29,"chainNo":"1","chainName":"맥도날드","menuName":"크리스피 치킨","singlePrice":"5500","setPrice":"6600","calory":"580","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/271FQYX.png","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":7,"chainNo":"2","chainName":"롯데리아","menuName":"불고기버거","singlePrice":"3800","setPrice":"5800","calory":"442","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/pObRYbX.jpg","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":8,"chainNo":"2","chainName":"롯데리아","menuName":"와규","singlePrice":"3000","setPrice":"4500","calory":"500","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/mGbQtXz.jpg","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":9,"chainNo":"2","chainName":"롯데리아","menuName":"t-rex","singlePrice":"123","setPrice":"456","calory":"777","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/uGaSOwZ.jpg","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":10,"chainNo":"2","chainName":"롯데리아","menuName":"새우버거","singlePrice":"4800","setPrice":"5900","calory":"560","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/JFHz7gj.jpg","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":11,"chainNo":"2","chainName":"롯데리아","menuName":"모쩨렐라","singlePrice":"3900","setPrice":"4500","calory":"567","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/eM7g9xi.jpg","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":13,"chainNo":"2","chainName":"롯데리아","menuName":"모짜더블","singlePrice":"3900","setPrice":"4500","calory":"574","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/W7Jcnv4.jpg","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":14,"chainNo":"2","chainName":"롯데리아","menuName":"모짜 베이컨","singlePrice":"4700","setPrice":"6600","calory":"785","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/o2fUHAj.jpg","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":15,"chainNo":"2","chainName":"롯데리아","menuName":"핫 크리스피","singlePrice":"4800","setPrice":"5500","calory":"465","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/eW9mBu2.jpg","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":16,"chainNo":"2","chainName":"롯데리아","menuName":"한우 불고기","singlePrice":"6000","setPrice":"7800","calory":"755","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/ss2KEXW.jpg","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":17,"chainNo":"2","chainName":"롯데리아","menuName":"클래식 치즈","singlePrice":"6600","setPrice":"7700","calory":"777","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/I3IqRxO.jpg","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":18,"chainNo":"2","chainName":"롯데리아","menuName":"치킨버거","singlePrice":"4500","setPrice":"6800","calory":"453","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/MqWgvow.jpg","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":19,"chainNo":"2","chainName":"롯데리아","menuName":"불고기버거","singlePrice":"3500","setPrice":"4500","calory":"580","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/5edv5B4.jpg","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":20,"chainNo":"2","chainName":"롯데리아","menuName":"빅불","singlePrice":"4800","setPrice":"5900","calory":"580","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/kzUvBJm.jpg","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":21,"chainNo":"2","chainName":"롯데리아","menuName":"바베큐버거","singlePrice":"4600","setPrice":"6700","calory":"574","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/mpZNfPb.jpg","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":22,"chainNo":"2","chainName":"롯데리아","menuName":"az버거","singlePrice":"6000","setPrice":"7000","calory":"897","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/JzZEk1C.jpg","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":30,"chainNo":"3","chainName":"버거킹","menuName":"와퍼","singlePrice":"6600","setPrice":"7600","calory":"680","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/fNN6tPe.png","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null},{"productNo":31,"chainNo":"4","chainName":"맘스터치","menuName":"싸이버거","singlePrice":"4800","setPrice":"5800","calory":"660","displayYn":"Y","storeNo":null,"imgUrl":"https://i.imgur.com/DvOfUax.jpg","storeName":null,"areaCode":null,"totalCount":null,"result":null,"burgerList":null}] 
+2019-04-22 17:56:31 [Thread-3] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-04-22 17:56:31 [restartedMain] INFO  com.example.demo.DemoBoApplication - Starting DemoBoApplication on HCNPHSHLEE001 with PID 14324 (C:\springTest\workspace\demo-bo\target\classes started by shlee in C:\springTest\workspace\demo-bo) 
+2019-04-22 17:56:31 [restartedMain] INFO  com.example.demo.DemoBoApplication - The following profiles are active: local 
+2019-04-22 17:56:32 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8585 (http) 
+2019-04-22 17:56:32 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8585"] 
+2019-04-22 17:56:32 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2019-04-22 17:56:32 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17] 
+2019-04-22 17:56:32 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/demo-bo] - Initializing Spring embedded WebApplicationContext 
+2019-04-22 17:56:32 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 647 ms 
+2019-04-22 17:56:32 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-04-22 17:56:32 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server 
+2019-04-22 17:56:32 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8585"] 
+2019-04-22 17:56:32 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8585 (http) with context path '/demo-bo' 
+2019-04-22 17:56:32 [restartedMain] INFO  com.example.demo.DemoBoApplication - Started DemoBoApplication in 0.997 seconds (JVM running for 933.862) 
+2019-04-22 17:56:32 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2019-04-22 17:57:19 [Thread-14] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-04-22 17:57:20 [restartedMain] INFO  com.example.demo.DemoBoApplication - Starting DemoBoApplication on HCNPHSHLEE001 with PID 14324 (C:\springTest\workspace\demo-bo\target\classes started by shlee in C:\springTest\workspace\demo-bo) 
+2019-04-22 17:57:20 [restartedMain] INFO  com.example.demo.DemoBoApplication - The following profiles are active: local 
+2019-04-22 17:57:20 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8585 (http) 
+2019-04-22 17:57:20 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8585"] 
+2019-04-22 17:57:20 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2019-04-22 17:57:20 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17] 
+2019-04-22 17:57:20 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/demo-bo] - Initializing Spring embedded WebApplicationContext 
+2019-04-22 17:57:20 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 567 ms 
+2019-04-22 17:57:20 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-04-22 17:57:20 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server 
+2019-04-22 17:57:20 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8585"] 
+2019-04-22 17:57:20 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8585 (http) with context path '/demo-bo' 
+2019-04-22 17:57:20 [restartedMain] INFO  com.example.demo.DemoBoApplication - Started DemoBoApplication in 0.813 seconds (JVM running for 981.796) 
+2019-04-22 17:57:20 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2019-04-22 17:57:24 [Thread-25] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-04-22 17:57:24 [restartedMain] INFO  com.example.demo.DemoBoApplication - Starting DemoBoApplication on HCNPHSHLEE001 with PID 14324 (C:\springTest\workspace\demo-bo\target\classes started by shlee in C:\springTest\workspace\demo-bo) 
+2019-04-22 17:57:24 [restartedMain] INFO  com.example.demo.DemoBoApplication - The following profiles are active: local 
+2019-04-22 17:57:25 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8585 (http) 
+2019-04-22 17:57:25 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8585"] 
+2019-04-22 17:57:25 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2019-04-22 17:57:25 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17] 
+2019-04-22 17:57:25 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/demo-bo] - Initializing Spring embedded WebApplicationContext 
+2019-04-22 17:57:25 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 607 ms 
+2019-04-22 17:57:25 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-04-22 17:57:25 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server 
+2019-04-22 17:57:25 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8585"] 
+2019-04-22 17:57:25 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8585 (http) with context path '/demo-bo' 
+2019-04-22 17:57:25 [restartedMain] INFO  com.example.demo.DemoBoApplication - Started DemoBoApplication in 0.913 seconds (JVM running for 986.556) 
+2019-04-22 17:57:25 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2019-04-22 17:57:42 [Thread-34] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-04-22 17:57:42 [restartedMain] INFO  com.example.demo.DemoBoApplication - Starting DemoBoApplication on HCNPHSHLEE001 with PID 14324 (C:\springTest\workspace\demo-bo\target\classes started by shlee in C:\springTest\workspace\demo-bo) 
+2019-04-22 17:57:42 [restartedMain] INFO  com.example.demo.DemoBoApplication - The following profiles are active: local 
+2019-04-22 17:57:43 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8585 (http) 
+2019-04-22 17:57:43 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8585"] 
+2019-04-22 17:57:43 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2019-04-22 17:57:43 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17] 
+2019-04-22 17:57:43 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/demo-bo] - Initializing Spring embedded WebApplicationContext 
+2019-04-22 17:57:43 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 725 ms 
+2019-04-22 17:57:43 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-04-22 17:57:43 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server 
+2019-04-22 17:57:43 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8585"] 
+2019-04-22 17:57:43 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8585 (http) with context path '/demo-bo' 
+2019-04-22 17:57:43 [restartedMain] INFO  com.example.demo.DemoBoApplication - Started DemoBoApplication in 0.995 seconds (JVM running for 1004.851) 
+2019-04-22 17:57:43 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2019-04-22 18:00:44 [Thread-44] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-04-22 18:00:44 [restartedMain] INFO  com.example.demo.DemoBoApplication - Starting DemoBoApplication on HCNPHSHLEE001 with PID 14324 (C:\springTest\workspace\demo-bo\target\classes started by shlee in C:\springTest\workspace\demo-bo) 
+2019-04-22 18:00:44 [restartedMain] INFO  com.example.demo.DemoBoApplication - The following profiles are active: local 
+2019-04-22 18:00:45 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8585 (http) 
+2019-04-22 18:00:45 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8585"] 
+2019-04-22 18:00:45 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2019-04-22 18:00:45 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17] 
+2019-04-22 18:00:45 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/demo-bo] - Initializing Spring embedded WebApplicationContext 
+2019-04-22 18:00:45 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 579 ms 
+2019-04-22 18:00:45 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-04-22 18:00:45 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server 
+2019-04-22 18:00:45 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8585"] 
+2019-04-22 18:00:45 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8585 (http) with context path '/demo-bo' 
+2019-04-22 18:00:45 [restartedMain] INFO  com.example.demo.DemoBoApplication - Started DemoBoApplication in 0.84 seconds (JVM running for 1186.766) 
+2019-04-22 18:00:45 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2019-04-22 18:05:05 [http-nio-8585-exec-1] INFO  o.a.c.c.C.[.[localhost].[/demo-bo] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2019-04-22 18:05:05 [http-nio-8585-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2019-04-22 18:05:05 [http-nio-8585-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms 
+2019-04-22 18:05:05 [http-nio-8585-exec-1] INFO  c.e.d.b.c.SelectBurgerController - [SelectBurgerController] selectBurgerList 
+2019-04-22 18:05:05 [http-nio-8585-exec-1] DEBUG c.e.d.b.c.SelectBurgerController - referer check => null 
+2019-04-22 18:05:07 [http-nio-8585-exec-2] INFO  c.e.d.b.c.SelectBurgerController - [SelectBurgerController] selectBurgerList 
+2019-04-22 18:05:07 [http-nio-8585-exec-2] DEBUG c.e.d.b.c.SelectBurgerController - referer check => null 
+2019-04-22 18:05:08 [http-nio-8585-exec-5] INFO  c.e.d.b.c.SelectBurgerController - [SelectBurgerController] selectBurgerList 
+2019-04-22 18:05:08 [http-nio-8585-exec-5] DEBUG c.e.d.b.c.SelectBurgerController - referer check => null 

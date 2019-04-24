@@ -1,0 +1,539 @@
+2019-04-22 15:23:59 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on HCNPHSHLEE001 with PID 8696 (C:\springTest\workspace\demo-api\target\classes started by shlee in C:\springTest\workspace\demo-api) 
+2019-04-22 15:23:59 [restartedMain] DEBUG com.example.demo.DemoApplication - Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE 
+2019-04-22 15:23:59 [restartedMain] INFO  com.example.demo.DemoApplication - The following profiles are active: local 
+2019-04-22 15:23:59 [restartedMain] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@79b8f55e: startup date [Mon Apr 22 15:23:59 KST 2019]; root of context hierarchy 
+2019-04-22 15:24:00 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\springTest\workspace\demo-api\target\classes\com\example\demo\api\dao\BurgerDAO.class] 
+2019-04-22 15:24:00 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'burgerDAO' and 'com.example.demo.api.dao.BurgerDAO' mapperInterface 
+2019-04-22 15:24:01 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a4732489] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-04-22 15:24:01 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http) 
+2019-04-22 15:24:01 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"] 
+2019-04-22 15:24:01 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2019-04-22 15:24:01 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31 
+2019-04-22 15:24:01 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\ojdkbuild\java-1.8.0-openjdk-1.8.0.201-1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/ojdkbuild/java-1.8.0-openjdk-1.8.0.201-1/bin/../jre/bin/server;C:/Program Files/ojdkbuild/java-1.8.0-openjdk-1.8.0.201-1/bin/../jre/bin;C:/Program Files/ojdkbuild/java-1.8.0-openjdk-1.8.0.201-1/bin/../jre/lib/amd64;D:\app\LG\product\11.2.0\client_1;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\ojdkbuild\java-1.8.0-openjdk-1.8.0.201-1\bin;C:\Program Files (x86)\PuTTY\;C:\Program Files\Bandizip\;C:\Users\LG\AppData\Local\Programs\Git\cmd;C:\springTest\sts-bundle\sts-3.9.7.RELEASE;;.] 
+2019-04-22 15:24:02 [localhost-startStop-1] INFO  o.a.c.c.C.[.[localhost].[/demo-api] - Initializing Spring embedded WebApplicationContext 
+2019-04-22 15:24:02 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2320 ms 
+2019-04-22 15:24:02 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/] 
+2019-04-22 15:24:02 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+2019-04-22 15:24:02 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+2019-04-22 15:24:02 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+2019-04-22 15:24:02 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+2019-04-22 15:24:02 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+2019-04-22 15:24:02 [restartedMain] INFO  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy.getNetworkTimeout()I) 
+2019-04-22 15:24:02 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+2019-04-22 15:24:02 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default' 
+2019-04-22 15:24:02 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...] 
+2019-04-22 15:24:02 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.17.Final} 
+2019-04-22 15:24:02 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found 
+2019-04-22 15:24:02 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final} 
+2019-04-22 15:24:03 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+2019-04-22 15:24:03 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2019-04-22 15:24:03 [restartedMain] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed configuration file: 'class path resource [mapper/mybatis-config.xml]' 
+2019-04-22 15:24:03 [restartedMain] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\springTest\workspace\demo-api\target\classes\mapper\demo\BurgerMapper.xml]' 
+2019-04-22 15:24:03 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2019-04-22 15:24:03 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/selectBurger/list],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.example.demo.api.model.burger.BurgerVO>> com.example.demo.api.controller.SelectBurgerController.selectCustomerLoyaltyDailyInfoList(com.example.demo.api.model.burger.BurgerVO) throws com.example.demo.api.exception.DemoException 
+2019-04-22 15:24:03 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources() 
+2019-04-22 15:24:03 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration() 
+2019-04-22 15:24:03 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration() 
+2019-04-22 15:24:03 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+2019-04-22 15:24:03 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+2019-04-22 15:24:04 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)] 
+2019-04-22 15:24:04 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@79b8f55e: startup date [Mon Apr 22 15:23:59 KST 2019]; root of context hierarchy 
+2019-04-22 15:24:04 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2019-04-22 15:24:04 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2019-04-22 15:24:04 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2019-04-22 15:24:04 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup 
+2019-04-22 15:24:04 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'DEMODatasource' has been autodetected for JMX exposure 
+2019-04-22 15:24:04 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'DEMODatasource': registering with JMX server as MBean [com.zaxxer.hikari:name=DEMODatasource,type=HikariDataSource] 
+2019-04-22 15:24:04 [restartedMain] INFO  o.s.c.s.DefaultLifecycleProcessor - Starting beans in phase 2147483647 
+2019-04-22 15:24:04 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed 
+2019-04-22 15:24:04 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s) 
+2019-04-22 15:24:04 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references 
+2019-04-22 15:24:05 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"] 
+2019-04-22 15:24:05 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read 
+2019-04-22 15:24:05 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path '/demo-api' 
+2019-04-22 15:24:05 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 5.973 seconds (JVM running for 8.567) 
+2019-04-22 16:33:27 [http-nio-8001-exec-1] INFO  o.a.c.c.C.[.[localhost].[/demo-api] - Initializing Spring FrameworkServlet 'dispatcherServlet' 
+2019-04-22 16:33:27 [http-nio-8001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started 
+2019-04-22 16:33:27 [http-nio-8001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 31 ms 
+2019-04-22 16:33:28 [http-nio-8001-exec-1] INFO  c.e.d.a.c.SelectBurgerController - [StatisticsController] Burger 리스트 조회 
+2019-04-22 16:33:28 [http-nio-8001-exec-1] INFO  c.e.d.a.s.SelectBurgerServiceImpl - [StatisticsServiceImpl] selectBurgerInfoList Service 
+2019-04-22 16:33:28 [http-nio-8001-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession 
+2019-04-22 16:33:28 [http-nio-8001-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68e5976a] was not registered for synchronization because synchronization is not active 
+2019-04-22 16:33:28 [http-nio-8001-exec-1] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1759460213 wrapping net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@542c1ef1] will not be managed by Spring 
+2019-04-22 16:33:28 [http-nio-8001-exec-1] DEBUG c.e.d.a.d.B.selectBurgerInfoList - ==>  Preparing: SELECT /*+ [demo-api].com.example.demo.api.dao.BurgerDAO.selectCustomerLoyaltyDailyInfoList */ a.chain_no , a.chain_name , b.product_no , b.menu_name , b.single_price , b.set_price , b.calory , b.img_url , b.display_yn , b.category FROM chain_store a INNER JOIN products b ON a.chain_no = b.chain_no  
+2019-04-22 16:33:28 [http-nio-8001-exec-1] DEBUG c.e.d.a.d.B.selectBurgerInfoList - ==> Parameters:  
+2019-04-22 16:33:28 [http-nio-8001-exec-1] DEBUG jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+21. SELECT /*+ [demo-api].com.example.demo.api.dao.BurgerDAO.selectCustomerLoyaltyDailyInfoList */ 
+				   a.chain_no 
+			     , a.chain_name
+		         , b.product_no
+		         , b.menu_name
+		         , b.single_price
+		         , b.set_price
+		         , b.calory
+		         , b.img_url
+		         , b.display_yn
+                 , b.category
+		      FROM chain_store a
+	 INNER JOIN products b
+	        ON a.chain_no = b.chain_no
+ {executed in 12 msec} 
+2019-04-22 16:33:28 [http-nio-8001-exec-1] INFO  jdbc.resultsettable - 
+|---------|-----------|-----------|----------|-------------|----------|-------|--------------------------------|-----------|---------|
+|chain_no |chain_name |product_no |menu_name |single_price |set_price |calory |img_url                         |display_yn |category |
+|---------|-----------|-----------|----------|-------------|----------|-------|--------------------------------|-----------|---------|
+|1        |맥도날드       |1          |빅맥        |4900         |4900      |514    |https://i.imgur.com/QLQOzWl.png |Y          |5        |
+|1        |맥도날드       |2          |맥스파이시 상하이 |4500         |4900      |467    |https://i.imgur.com/pzdNKMr.png |Y          |5        |
+|1        |맥도날드       |3          |함박버거      |3500         |4300      |412    |https://i.imgur.com/rpGn3fu.png |Y          |5        |
+|1        |맥도날드       |4          |토마토디럭스    |5000         |6600      |522    |https://i.imgur.com/Yx7jHF1.png |Y          |5        |
+|1        |맥도날드       |5          |골든에그치즈    |7600         |9000      |707    |https://i.imgur.com/PJgj7Fn.png |Y          |5        |
+|1        |맥도날드       |6          |더블1955    |6600         |8000      |724    |https://i.imgur.com/oj1X1b8.png |Y          |5        |
+|1        |맥도날드       |23         |쿼터파운드     |4800         |5800      |577    |https://i.imgur.com/woFBV1b.png |Y          |5        |
+|1        |맥도날드       |24         |메가맥       |8000         |9000      |807    |https://i.imgur.com/nJFV08c.png |Y          |5        |
+|1        |맥도날드       |25         |그릴드 머쉬룸   |7000         |8000      |780    |https://i.imgur.com/5AJxan1.png |Y          |5        |
+|1        |맥도날드       |26         |슈슈버거      |4900         |6600      |558    |https://i.imgur.com/JmtZeIT.png |Y          |5        |
+|1        |맥도날드       |27         |햄버거       |4600         |4900      |476    |https://i.imgur.com/QgUdbqM.png |Y          |5        |
+|1        |맥도날드       |28         |슈비버거      |4900         |5500      |577    |https://i.imgur.com/giNge5P.png |Y          |5        |
+|1        |맥도날드       |29         |크리스피 치킨   |5500         |6600      |580    |https://i.imgur.com/271FQYX.png |Y          |5        |
+|2        |롯데리아       |7          |불고기버거     |3800         |5800      |442    |https://i.imgur.com/pObRYbX.jpg |Y          |5        |
+|2        |롯데리아       |8          |와규        |3000         |4500      |500    |https://i.imgur.com/mGbQtXz.jpg |Y          |5        |
+|2        |롯데리아       |9          |t-rex     |123          |456       |777    |https://i.imgur.com/uGaSOwZ.jpg |Y          |5        |
+|2        |롯데리아       |10         |새우버거      |4800         |5900      |560    |https://i.imgur.com/JFHz7gj.jpg |Y          |5        |
+|2        |롯데리아       |11         |모쩨렐라      |3900         |4500      |567    |https://i.imgur.com/eM7g9xi.jpg |Y          |5        |
+|2        |롯데리아       |13         |모짜더블      |3900         |4500      |574    |https://i.imgur.com/W7Jcnv4.jpg |Y          |5        |
+|2        |롯데리아       |14         |모짜 베이컨    |4700         |6600      |785    |https://i.imgur.com/o2fUHAj.jpg |Y          |5        |
+|2        |롯데리아       |15         |핫 크리스피    |4800         |5500      |465    |https://i.imgur.com/eW9mBu2.jpg |Y          |5        |
+|2        |롯데리아       |16         |한우 불고기    |6000         |7800      |755    |https://i.imgur.com/ss2KEXW.jpg |Y          |5        |
+|2        |롯데리아       |17         |클래식 치즈    |6600         |7700      |777    |https://i.imgur.com/I3IqRxO.jpg |Y          |5        |
+|2        |롯데리아       |18         |치킨버거      |4500         |6800      |453    |https://i.imgur.com/MqWgvow.jpg |Y          |5        |
+|2        |롯데리아       |19         |불고기버거     |3500         |4500      |580    |https://i.imgur.com/5edv5B4.jpg |Y          |5        |
+|2        |롯데리아       |20         |빅불        |4800         |5900      |580    |https://i.imgur.com/kzUvBJm.jpg |Y          |5        |
+|2        |롯데리아       |21         |바베큐버거     |4600         |6700      |574    |https://i.imgur.com/mpZNfPb.jpg |Y          |5        |
+|2        |롯데리아       |22         |az버거      |6000         |7000      |897    |https://i.imgur.com/JzZEk1C.jpg |Y          |5        |
+|3        |버거킹        |30         |와퍼        |6600         |7600      |680    |https://i.imgur.com/fNN6tPe.png |Y          |5        |
+|4        |맘스터치       |31         |싸이버거      |4800         |5800      |660    |https://i.imgur.com/DvOfUax.jpg |Y          |5        |
+|---------|-----------|-----------|----------|-------------|----------|-------|--------------------------------|-----------|---------|
+ 
+2019-04-22 16:33:28 [http-nio-8001-exec-1] DEBUG c.e.d.a.d.B.selectBurgerInfoList - <==      Total: 30 
+2019-04-22 16:33:28 [http-nio-8001-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68e5976a] 
+2019-04-22 16:33:28 [http-nio-8001-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession 
+2019-04-22 16:33:28 [http-nio-8001-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@e5f73fa] was not registered for synchronization because synchronization is not active 
+2019-04-22 16:33:28 [http-nio-8001-exec-1] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@972316352 wrapping net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@542c1ef1] will not be managed by Spring 
+2019-04-22 16:33:28 [http-nio-8001-exec-1] DEBUG c.e.d.a.d.B.selectBurgerInfoList - ==>  Preparing: SELECT /*+ [demo-api].com.example.demo.api.dao.BurgerDAO.selectCustomerLoyaltyDailyInfoList */ a.chain_no , a.chain_name , b.product_no , b.menu_name , b.single_price , b.set_price , b.calory , b.img_url , b.display_yn , b.category FROM chain_store a INNER JOIN products b ON a.chain_no = b.chain_no  
+2019-04-22 16:33:28 [http-nio-8001-exec-1] DEBUG c.e.d.a.d.B.selectBurgerInfoList - ==> Parameters:  
+2019-04-22 16:33:28 [http-nio-8001-exec-1] DEBUG jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+21. SELECT /*+ [demo-api].com.example.demo.api.dao.BurgerDAO.selectCustomerLoyaltyDailyInfoList */ 
+				   a.chain_no 
+			     , a.chain_name
+		         , b.product_no
+		         , b.menu_name
+		         , b.single_price
+		         , b.set_price
+		         , b.calory
+		         , b.img_url
+		         , b.display_yn
+                 , b.category
+		      FROM chain_store a
+	 INNER JOIN products b
+	        ON a.chain_no = b.chain_no
+ {executed in 9 msec} 
+2019-04-22 16:33:28 [http-nio-8001-exec-1] INFO  jdbc.resultsettable - 
+|---------|-----------|-----------|----------|-------------|----------|-------|--------------------------------|-----------|---------|
+|chain_no |chain_name |product_no |menu_name |single_price |set_price |calory |img_url                         |display_yn |category |
+|---------|-----------|-----------|----------|-------------|----------|-------|--------------------------------|-----------|---------|
+|1        |맥도날드       |1          |빅맥        |4900         |4900      |514    |https://i.imgur.com/QLQOzWl.png |Y          |5        |
+|1        |맥도날드       |2          |맥스파이시 상하이 |4500         |4900      |467    |https://i.imgur.com/pzdNKMr.png |Y          |5        |
+|1        |맥도날드       |3          |함박버거      |3500         |4300      |412    |https://i.imgur.com/rpGn3fu.png |Y          |5        |
+|1        |맥도날드       |4          |토마토디럭스    |5000         |6600      |522    |https://i.imgur.com/Yx7jHF1.png |Y          |5        |
+|1        |맥도날드       |5          |골든에그치즈    |7600         |9000      |707    |https://i.imgur.com/PJgj7Fn.png |Y          |5        |
+|1        |맥도날드       |6          |더블1955    |6600         |8000      |724    |https://i.imgur.com/oj1X1b8.png |Y          |5        |
+|1        |맥도날드       |23         |쿼터파운드     |4800         |5800      |577    |https://i.imgur.com/woFBV1b.png |Y          |5        |
+|1        |맥도날드       |24         |메가맥       |8000         |9000      |807    |https://i.imgur.com/nJFV08c.png |Y          |5        |
+|1        |맥도날드       |25         |그릴드 머쉬룸   |7000         |8000      |780    |https://i.imgur.com/5AJxan1.png |Y          |5        |
+|1        |맥도날드       |26         |슈슈버거      |4900         |6600      |558    |https://i.imgur.com/JmtZeIT.png |Y          |5        |
+|1        |맥도날드       |27         |햄버거       |4600         |4900      |476    |https://i.imgur.com/QgUdbqM.png |Y          |5        |
+|1        |맥도날드       |28         |슈비버거      |4900         |5500      |577    |https://i.imgur.com/giNge5P.png |Y          |5        |
+|1        |맥도날드       |29         |크리스피 치킨   |5500         |6600      |580    |https://i.imgur.com/271FQYX.png |Y          |5        |
+|2        |롯데리아       |7          |불고기버거     |3800         |5800      |442    |https://i.imgur.com/pObRYbX.jpg |Y          |5        |
+|2        |롯데리아       |8          |와규        |3000         |4500      |500    |https://i.imgur.com/mGbQtXz.jpg |Y          |5        |
+|2        |롯데리아       |9          |t-rex     |123          |456       |777    |https://i.imgur.com/uGaSOwZ.jpg |Y          |5        |
+|2        |롯데리아       |10         |새우버거      |4800         |5900      |560    |https://i.imgur.com/JFHz7gj.jpg |Y          |5        |
+|2        |롯데리아       |11         |모쩨렐라      |3900         |4500      |567    |https://i.imgur.com/eM7g9xi.jpg |Y          |5        |
+|2        |롯데리아       |13         |모짜더블      |3900         |4500      |574    |https://i.imgur.com/W7Jcnv4.jpg |Y          |5        |
+|2        |롯데리아       |14         |모짜 베이컨    |4700         |6600      |785    |https://i.imgur.com/o2fUHAj.jpg |Y          |5        |
+|2        |롯데리아       |15         |핫 크리스피    |4800         |5500      |465    |https://i.imgur.com/eW9mBu2.jpg |Y          |5        |
+|2        |롯데리아       |16         |한우 불고기    |6000         |7800      |755    |https://i.imgur.com/ss2KEXW.jpg |Y          |5        |
+|2        |롯데리아       |17         |클래식 치즈    |6600         |7700      |777    |https://i.imgur.com/I3IqRxO.jpg |Y          |5        |
+|2        |롯데리아       |18         |치킨버거      |4500         |6800      |453    |https://i.imgur.com/MqWgvow.jpg |Y          |5        |
+|2        |롯데리아       |19         |불고기버거     |3500         |4500      |580    |https://i.imgur.com/5edv5B4.jpg |Y          |5        |
+|2        |롯데리아       |20         |빅불        |4800         |5900      |580    |https://i.imgur.com/kzUvBJm.jpg |Y          |5        |
+|2        |롯데리아       |21         |바베큐버거     |4600         |6700      |574    |https://i.imgur.com/mpZNfPb.jpg |Y          |5        |
+|2        |롯데리아       |22         |az버거      |6000         |7000      |897    |https://i.imgur.com/JzZEk1C.jpg |Y          |5        |
+|3        |버거킹        |30         |와퍼        |6600         |7600      |680    |https://i.imgur.com/fNN6tPe.png |Y          |5        |
+|4        |맘스터치       |31         |싸이버거      |4800         |5800      |660    |https://i.imgur.com/DvOfUax.jpg |Y          |5        |
+|---------|-----------|-----------|----------|-------------|----------|-------|--------------------------------|-----------|---------|
+ 
+2019-04-22 16:33:28 [http-nio-8001-exec-1] DEBUG c.e.d.a.d.B.selectBurgerInfoList - <==      Total: 30 
+2019-04-22 16:33:28 [http-nio-8001-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@e5f73fa] 
+2019-04-22 17:13:23 [http-nio-8001-exec-3] INFO  c.e.d.a.c.SelectBurgerController - [StatisticsController] Burger 리스트 조회 
+2019-04-22 17:13:23 [http-nio-8001-exec-3] INFO  c.e.d.a.s.SelectBurgerServiceImpl - [StatisticsServiceImpl] selectBurgerInfoList Service 
+2019-04-22 17:13:23 [http-nio-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession 
+2019-04-22 17:13:23 [http-nio-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@713f723c] was not registered for synchronization because synchronization is not active 
+2019-04-22 17:13:23 [http-nio-8001-exec-3] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@876470911 wrapping net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@777380cd] will not be managed by Spring 
+2019-04-22 17:13:23 [http-nio-8001-exec-3] DEBUG c.e.d.a.d.B.selectBurgerInfoList - ==>  Preparing: SELECT /*+ [demo-api].com.example.demo.api.dao.BurgerDAO.selectCustomerLoyaltyDailyInfoList */ a.chain_no , a.chain_name , b.product_no , b.menu_name , b.single_price , b.set_price , b.calory , b.img_url , b.display_yn , b.category FROM chain_store a INNER JOIN products b ON a.chain_no = b.chain_no  
+2019-04-22 17:13:23 [http-nio-8001-exec-3] DEBUG c.e.d.a.d.B.selectBurgerInfoList - ==> Parameters:  
+2019-04-22 17:13:23 [http-nio-8001-exec-3] DEBUG jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+31. SELECT /*+ [demo-api].com.example.demo.api.dao.BurgerDAO.selectCustomerLoyaltyDailyInfoList */ 
+				   a.chain_no 
+			     , a.chain_name
+		         , b.product_no
+		         , b.menu_name
+		         , b.single_price
+		         , b.set_price
+		         , b.calory
+		         , b.img_url
+		         , b.display_yn
+                 , b.category
+		      FROM chain_store a
+	 INNER JOIN products b
+	        ON a.chain_no = b.chain_no
+ {executed in 10 msec} 
+2019-04-22 17:13:23 [http-nio-8001-exec-3] INFO  jdbc.resultsettable - 
+|---------|-----------|-----------|----------|-------------|----------|-------|--------------------------------|-----------|---------|
+|chain_no |chain_name |product_no |menu_name |single_price |set_price |calory |img_url                         |display_yn |category |
+|---------|-----------|-----------|----------|-------------|----------|-------|--------------------------------|-----------|---------|
+|1        |맥도날드       |1          |빅맥        |4900         |4900      |514    |https://i.imgur.com/QLQOzWl.png |Y          |5        |
+|1        |맥도날드       |2          |맥스파이시 상하이 |4500         |4900      |467    |https://i.imgur.com/pzdNKMr.png |Y          |5        |
+|1        |맥도날드       |3          |함박버거      |3500         |4300      |412    |https://i.imgur.com/rpGn3fu.png |Y          |5        |
+|1        |맥도날드       |4          |토마토디럭스    |5000         |6600      |522    |https://i.imgur.com/Yx7jHF1.png |Y          |5        |
+|1        |맥도날드       |5          |골든에그치즈    |7600         |9000      |707    |https://i.imgur.com/PJgj7Fn.png |Y          |5        |
+|1        |맥도날드       |6          |더블1955    |6600         |8000      |724    |https://i.imgur.com/oj1X1b8.png |Y          |5        |
+|1        |맥도날드       |23         |쿼터파운드     |4800         |5800      |577    |https://i.imgur.com/woFBV1b.png |Y          |5        |
+|1        |맥도날드       |24         |메가맥       |8000         |9000      |807    |https://i.imgur.com/nJFV08c.png |Y          |5        |
+|1        |맥도날드       |25         |그릴드 머쉬룸   |7000         |8000      |780    |https://i.imgur.com/5AJxan1.png |Y          |5        |
+|1        |맥도날드       |26         |슈슈버거      |4900         |6600      |558    |https://i.imgur.com/JmtZeIT.png |Y          |5        |
+|1        |맥도날드       |27         |햄버거       |4600         |4900      |476    |https://i.imgur.com/QgUdbqM.png |Y          |5        |
+|1        |맥도날드       |28         |슈비버거      |4900         |5500      |577    |https://i.imgur.com/giNge5P.png |Y          |5        |
+|1        |맥도날드       |29         |크리스피 치킨   |5500         |6600      |580    |https://i.imgur.com/271FQYX.png |Y          |5        |
+|2        |롯데리아       |7          |불고기버거     |3800         |5800      |442    |https://i.imgur.com/pObRYbX.jpg |Y          |5        |
+|2        |롯데리아       |8          |와규        |3000         |4500      |500    |https://i.imgur.com/mGbQtXz.jpg |Y          |5        |
+|2        |롯데리아       |9          |t-rex     |123          |456       |777    |https://i.imgur.com/uGaSOwZ.jpg |Y          |5        |
+|2        |롯데리아       |10         |새우버거      |4800         |5900      |560    |https://i.imgur.com/JFHz7gj.jpg |Y          |5        |
+|2        |롯데리아       |11         |모쩨렐라      |3900         |4500      |567    |https://i.imgur.com/eM7g9xi.jpg |Y          |5        |
+|2        |롯데리아       |13         |모짜더블      |3900         |4500      |574    |https://i.imgur.com/W7Jcnv4.jpg |Y          |5        |
+|2        |롯데리아       |14         |모짜 베이컨    |4700         |6600      |785    |https://i.imgur.com/o2fUHAj.jpg |Y          |5        |
+|2        |롯데리아       |15         |핫 크리스피    |4800         |5500      |465    |https://i.imgur.com/eW9mBu2.jpg |Y          |5        |
+|2        |롯데리아       |16         |한우 불고기    |6000         |7800      |755    |https://i.imgur.com/ss2KEXW.jpg |Y          |5        |
+|2        |롯데리아       |17         |클래식 치즈    |6600         |7700      |777    |https://i.imgur.com/I3IqRxO.jpg |Y          |5        |
+|2        |롯데리아       |18         |치킨버거      |4500         |6800      |453    |https://i.imgur.com/MqWgvow.jpg |Y          |5        |
+|2        |롯데리아       |19         |불고기버거     |3500         |4500      |580    |https://i.imgur.com/5edv5B4.jpg |Y          |5        |
+|2        |롯데리아       |20         |빅불        |4800         |5900      |580    |https://i.imgur.com/kzUvBJm.jpg |Y          |5        |
+|2        |롯데리아       |21         |바베큐버거     |4600         |6700      |574    |https://i.imgur.com/mpZNfPb.jpg |Y          |5        |
+|2        |롯데리아       |22         |az버거      |6000         |7000      |897    |https://i.imgur.com/JzZEk1C.jpg |Y          |5        |
+|3        |버거킹        |30         |와퍼        |6600         |7600      |680    |https://i.imgur.com/fNN6tPe.png |Y          |5        |
+|4        |맘스터치       |31         |싸이버거      |4800         |5800      |660    |https://i.imgur.com/DvOfUax.jpg |Y          |5        |
+|---------|-----------|-----------|----------|-------------|----------|-------|--------------------------------|-----------|---------|
+ 
+2019-04-22 17:13:23 [http-nio-8001-exec-3] DEBUG c.e.d.a.d.B.selectBurgerInfoList - <==      Total: 30 
+2019-04-22 17:13:23 [http-nio-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@713f723c] 
+2019-04-22 17:13:23 [http-nio-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession 
+2019-04-22 17:13:23 [http-nio-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1b122e45] was not registered for synchronization because synchronization is not active 
+2019-04-22 17:13:23 [http-nio-8001-exec-3] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@710705556 wrapping net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@777380cd] will not be managed by Spring 
+2019-04-22 17:13:23 [http-nio-8001-exec-3] DEBUG c.e.d.a.d.B.selectBurgerInfoList - ==>  Preparing: SELECT /*+ [demo-api].com.example.demo.api.dao.BurgerDAO.selectCustomerLoyaltyDailyInfoList */ a.chain_no , a.chain_name , b.product_no , b.menu_name , b.single_price , b.set_price , b.calory , b.img_url , b.display_yn , b.category FROM chain_store a INNER JOIN products b ON a.chain_no = b.chain_no  
+2019-04-22 17:13:23 [http-nio-8001-exec-3] DEBUG c.e.d.a.d.B.selectBurgerInfoList - ==> Parameters:  
+2019-04-22 17:13:23 [http-nio-8001-exec-3] DEBUG jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+31. SELECT /*+ [demo-api].com.example.demo.api.dao.BurgerDAO.selectCustomerLoyaltyDailyInfoList */ 
+				   a.chain_no 
+			     , a.chain_name
+		         , b.product_no
+		         , b.menu_name
+		         , b.single_price
+		         , b.set_price
+		         , b.calory
+		         , b.img_url
+		         , b.display_yn
+                 , b.category
+		      FROM chain_store a
+	 INNER JOIN products b
+	        ON a.chain_no = b.chain_no
+ {executed in 9 msec} 
+2019-04-22 17:13:23 [http-nio-8001-exec-3] INFO  jdbc.resultsettable - 
+|---------|-----------|-----------|----------|-------------|----------|-------|--------------------------------|-----------|---------|
+|chain_no |chain_name |product_no |menu_name |single_price |set_price |calory |img_url                         |display_yn |category |
+|---------|-----------|-----------|----------|-------------|----------|-------|--------------------------------|-----------|---------|
+|1        |맥도날드       |1          |빅맥        |4900         |4900      |514    |https://i.imgur.com/QLQOzWl.png |Y          |5        |
+|1        |맥도날드       |2          |맥스파이시 상하이 |4500         |4900      |467    |https://i.imgur.com/pzdNKMr.png |Y          |5        |
+|1        |맥도날드       |3          |함박버거      |3500         |4300      |412    |https://i.imgur.com/rpGn3fu.png |Y          |5        |
+|1        |맥도날드       |4          |토마토디럭스    |5000         |6600      |522    |https://i.imgur.com/Yx7jHF1.png |Y          |5        |
+|1        |맥도날드       |5          |골든에그치즈    |7600         |9000      |707    |https://i.imgur.com/PJgj7Fn.png |Y          |5        |
+|1        |맥도날드       |6          |더블1955    |6600         |8000      |724    |https://i.imgur.com/oj1X1b8.png |Y          |5        |
+|1        |맥도날드       |23         |쿼터파운드     |4800         |5800      |577    |https://i.imgur.com/woFBV1b.png |Y          |5        |
+|1        |맥도날드       |24         |메가맥       |8000         |9000      |807    |https://i.imgur.com/nJFV08c.png |Y          |5        |
+|1        |맥도날드       |25         |그릴드 머쉬룸   |7000         |8000      |780    |https://i.imgur.com/5AJxan1.png |Y          |5        |
+|1        |맥도날드       |26         |슈슈버거      |4900         |6600      |558    |https://i.imgur.com/JmtZeIT.png |Y          |5        |
+|1        |맥도날드       |27         |햄버거       |4600         |4900      |476    |https://i.imgur.com/QgUdbqM.png |Y          |5        |
+|1        |맥도날드       |28         |슈비버거      |4900         |5500      |577    |https://i.imgur.com/giNge5P.png |Y          |5        |
+|1        |맥도날드       |29         |크리스피 치킨   |5500         |6600      |580    |https://i.imgur.com/271FQYX.png |Y          |5        |
+|2        |롯데리아       |7          |불고기버거     |3800         |5800      |442    |https://i.imgur.com/pObRYbX.jpg |Y          |5        |
+|2        |롯데리아       |8          |와규        |3000         |4500      |500    |https://i.imgur.com/mGbQtXz.jpg |Y          |5        |
+|2        |롯데리아       |9          |t-rex     |123          |456       |777    |https://i.imgur.com/uGaSOwZ.jpg |Y          |5        |
+|2        |롯데리아       |10         |새우버거      |4800         |5900      |560    |https://i.imgur.com/JFHz7gj.jpg |Y          |5        |
+|2        |롯데리아       |11         |모쩨렐라      |3900         |4500      |567    |https://i.imgur.com/eM7g9xi.jpg |Y          |5        |
+|2        |롯데리아       |13         |모짜더블      |3900         |4500      |574    |https://i.imgur.com/W7Jcnv4.jpg |Y          |5        |
+|2        |롯데리아       |14         |모짜 베이컨    |4700         |6600      |785    |https://i.imgur.com/o2fUHAj.jpg |Y          |5        |
+|2        |롯데리아       |15         |핫 크리스피    |4800         |5500      |465    |https://i.imgur.com/eW9mBu2.jpg |Y          |5        |
+|2        |롯데리아       |16         |한우 불고기    |6000         |7800      |755    |https://i.imgur.com/ss2KEXW.jpg |Y          |5        |
+|2        |롯데리아       |17         |클래식 치즈    |6600         |7700      |777    |https://i.imgur.com/I3IqRxO.jpg |Y          |5        |
+|2        |롯데리아       |18         |치킨버거      |4500         |6800      |453    |https://i.imgur.com/MqWgvow.jpg |Y          |5        |
+|2        |롯데리아       |19         |불고기버거     |3500         |4500      |580    |https://i.imgur.com/5edv5B4.jpg |Y          |5        |
+|2        |롯데리아       |20         |빅불        |4800         |5900      |580    |https://i.imgur.com/kzUvBJm.jpg |Y          |5        |
+|2        |롯데리아       |21         |바베큐버거     |4600         |6700      |574    |https://i.imgur.com/mpZNfPb.jpg |Y          |5        |
+|2        |롯데리아       |22         |az버거      |6000         |7000      |897    |https://i.imgur.com/JzZEk1C.jpg |Y          |5        |
+|3        |버거킹        |30         |와퍼        |6600         |7600      |680    |https://i.imgur.com/fNN6tPe.png |Y          |5        |
+|4        |맘스터치       |31         |싸이버거      |4800         |5800      |660    |https://i.imgur.com/DvOfUax.jpg |Y          |5        |
+|---------|-----------|-----------|----------|-------------|----------|-------|--------------------------------|-----------|---------|
+ 
+2019-04-22 17:13:23 [http-nio-8001-exec-3] DEBUG c.e.d.a.d.B.selectBurgerInfoList - <==      Total: 30 
+2019-04-22 17:13:23 [http-nio-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1b122e45] 
+2019-04-22 17:35:44 [http-nio-8001-exec-5] INFO  c.e.d.a.c.SelectBurgerController - [StatisticsController] Burger 리스트 조회 
+2019-04-22 17:35:44 [http-nio-8001-exec-5] INFO  c.e.d.a.s.SelectBurgerServiceImpl - [StatisticsServiceImpl] selectBurgerInfoList Service 
+2019-04-22 17:35:44 [http-nio-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession 
+2019-04-22 17:35:44 [http-nio-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5ef187d4] was not registered for synchronization because synchronization is not active 
+2019-04-22 17:35:44 [http-nio-8001-exec-5] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1345741434 wrapping net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@5409eca4] will not be managed by Spring 
+2019-04-22 17:35:44 [http-nio-8001-exec-5] DEBUG c.e.d.a.d.B.selectBurgerInfoList - ==>  Preparing: SELECT /*+ [demo-api].com.example.demo.api.dao.BurgerDAO.selectCustomerLoyaltyDailyInfoList */ a.chain_no , a.chain_name , b.product_no , b.menu_name , b.single_price , b.set_price , b.calory , b.img_url , b.display_yn , b.category FROM chain_store a INNER JOIN products b ON a.chain_no = b.chain_no  
+2019-04-22 17:35:44 [http-nio-8001-exec-5] DEBUG c.e.d.a.d.B.selectBurgerInfoList - ==> Parameters:  
+2019-04-22 17:35:44 [http-nio-8001-exec-5] DEBUG jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+41. SELECT /*+ [demo-api].com.example.demo.api.dao.BurgerDAO.selectCustomerLoyaltyDailyInfoList */ 
+				   a.chain_no 
+			     , a.chain_name
+		         , b.product_no
+		         , b.menu_name
+		         , b.single_price
+		         , b.set_price
+		         , b.calory
+		         , b.img_url
+		         , b.display_yn
+                 , b.category
+		      FROM chain_store a
+	 INNER JOIN products b
+	        ON a.chain_no = b.chain_no
+ {executed in 9 msec} 
+2019-04-22 17:35:44 [http-nio-8001-exec-5] INFO  jdbc.resultsettable - 
+|---------|-----------|-----------|----------|-------------|----------|-------|--------------------------------|-----------|---------|
+|chain_no |chain_name |product_no |menu_name |single_price |set_price |calory |img_url                         |display_yn |category |
+|---------|-----------|-----------|----------|-------------|----------|-------|--------------------------------|-----------|---------|
+|1        |맥도날드       |1          |빅맥        |4900         |4900      |514    |https://i.imgur.com/QLQOzWl.png |Y          |5        |
+|1        |맥도날드       |2          |맥스파이시 상하이 |4500         |4900      |467    |https://i.imgur.com/pzdNKMr.png |Y          |5        |
+|1        |맥도날드       |3          |함박버거      |3500         |4300      |412    |https://i.imgur.com/rpGn3fu.png |Y          |5        |
+|1        |맥도날드       |4          |토마토디럭스    |5000         |6600      |522    |https://i.imgur.com/Yx7jHF1.png |Y          |5        |
+|1        |맥도날드       |5          |골든에그치즈    |7600         |9000      |707    |https://i.imgur.com/PJgj7Fn.png |Y          |5        |
+|1        |맥도날드       |6          |더블1955    |6600         |8000      |724    |https://i.imgur.com/oj1X1b8.png |Y          |5        |
+|1        |맥도날드       |23         |쿼터파운드     |4800         |5800      |577    |https://i.imgur.com/woFBV1b.png |Y          |5        |
+|1        |맥도날드       |24         |메가맥       |8000         |9000      |807    |https://i.imgur.com/nJFV08c.png |Y          |5        |
+|1        |맥도날드       |25         |그릴드 머쉬룸   |7000         |8000      |780    |https://i.imgur.com/5AJxan1.png |Y          |5        |
+|1        |맥도날드       |26         |슈슈버거      |4900         |6600      |558    |https://i.imgur.com/JmtZeIT.png |Y          |5        |
+|1        |맥도날드       |27         |햄버거       |4600         |4900      |476    |https://i.imgur.com/QgUdbqM.png |Y          |5        |
+|1        |맥도날드       |28         |슈비버거      |4900         |5500      |577    |https://i.imgur.com/giNge5P.png |Y          |5        |
+|1        |맥도날드       |29         |크리스피 치킨   |5500         |6600      |580    |https://i.imgur.com/271FQYX.png |Y          |5        |
+|2        |롯데리아       |7          |불고기버거     |3800         |5800      |442    |https://i.imgur.com/pObRYbX.jpg |Y          |5        |
+|2        |롯데리아       |8          |와규        |3000         |4500      |500    |https://i.imgur.com/mGbQtXz.jpg |Y          |5        |
+|2        |롯데리아       |9          |t-rex     |123          |456       |777    |https://i.imgur.com/uGaSOwZ.jpg |Y          |5        |
+|2        |롯데리아       |10         |새우버거      |4800         |5900      |560    |https://i.imgur.com/JFHz7gj.jpg |Y          |5        |
+|2        |롯데리아       |11         |모쩨렐라      |3900         |4500      |567    |https://i.imgur.com/eM7g9xi.jpg |Y          |5        |
+|2        |롯데리아       |13         |모짜더블      |3900         |4500      |574    |https://i.imgur.com/W7Jcnv4.jpg |Y          |5        |
+|2        |롯데리아       |14         |모짜 베이컨    |4700         |6600      |785    |https://i.imgur.com/o2fUHAj.jpg |Y          |5        |
+|2        |롯데리아       |15         |핫 크리스피    |4800         |5500      |465    |https://i.imgur.com/eW9mBu2.jpg |Y          |5        |
+|2        |롯데리아       |16         |한우 불고기    |6000         |7800      |755    |https://i.imgur.com/ss2KEXW.jpg |Y          |5        |
+|2        |롯데리아       |17         |클래식 치즈    |6600         |7700      |777    |https://i.imgur.com/I3IqRxO.jpg |Y          |5        |
+|2        |롯데리아       |18         |치킨버거      |4500         |6800      |453    |https://i.imgur.com/MqWgvow.jpg |Y          |5        |
+|2        |롯데리아       |19         |불고기버거     |3500         |4500      |580    |https://i.imgur.com/5edv5B4.jpg |Y          |5        |
+|2        |롯데리아       |20         |빅불        |4800         |5900      |580    |https://i.imgur.com/kzUvBJm.jpg |Y          |5        |
+|2        |롯데리아       |21         |바베큐버거     |4600         |6700      |574    |https://i.imgur.com/mpZNfPb.jpg |Y          |5        |
+|2        |롯데리아       |22         |az버거      |6000         |7000      |897    |https://i.imgur.com/JzZEk1C.jpg |Y          |5        |
+|3        |버거킹        |30         |와퍼        |6600         |7600      |680    |https://i.imgur.com/fNN6tPe.png |Y          |5        |
+|4        |맘스터치       |31         |싸이버거      |4800         |5800      |660    |https://i.imgur.com/DvOfUax.jpg |Y          |5        |
+|---------|-----------|-----------|----------|-------------|----------|-------|--------------------------------|-----------|---------|
+ 
+2019-04-22 17:35:44 [http-nio-8001-exec-5] DEBUG c.e.d.a.d.B.selectBurgerInfoList - <==      Total: 30 
+2019-04-22 17:35:44 [http-nio-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5ef187d4] 
+2019-04-22 17:35:44 [http-nio-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession 
+2019-04-22 17:35:44 [http-nio-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1cb978ac] was not registered for synchronization because synchronization is not active 
+2019-04-22 17:35:44 [http-nio-8001-exec-5] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@336193209 wrapping net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@5409eca4] will not be managed by Spring 
+2019-04-22 17:35:44 [http-nio-8001-exec-5] DEBUG c.e.d.a.d.B.selectBurgerInfoList - ==>  Preparing: SELECT /*+ [demo-api].com.example.demo.api.dao.BurgerDAO.selectCustomerLoyaltyDailyInfoList */ a.chain_no , a.chain_name , b.product_no , b.menu_name , b.single_price , b.set_price , b.calory , b.img_url , b.display_yn , b.category FROM chain_store a INNER JOIN products b ON a.chain_no = b.chain_no  
+2019-04-22 17:35:44 [http-nio-8001-exec-5] DEBUG c.e.d.a.d.B.selectBurgerInfoList - ==> Parameters:  
+2019-04-22 17:35:44 [http-nio-8001-exec-5] DEBUG jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+41. SELECT /*+ [demo-api].com.example.demo.api.dao.BurgerDAO.selectCustomerLoyaltyDailyInfoList */ 
+				   a.chain_no 
+			     , a.chain_name
+		         , b.product_no
+		         , b.menu_name
+		         , b.single_price
+		         , b.set_price
+		         , b.calory
+		         , b.img_url
+		         , b.display_yn
+                 , b.category
+		      FROM chain_store a
+	 INNER JOIN products b
+	        ON a.chain_no = b.chain_no
+ {executed in 9 msec} 
+2019-04-22 17:35:44 [http-nio-8001-exec-5] INFO  jdbc.resultsettable - 
+|---------|-----------|-----------|----------|-------------|----------|-------|--------------------------------|-----------|---------|
+|chain_no |chain_name |product_no |menu_name |single_price |set_price |calory |img_url                         |display_yn |category |
+|---------|-----------|-----------|----------|-------------|----------|-------|--------------------------------|-----------|---------|
+|1        |맥도날드       |1          |빅맥        |4900         |4900      |514    |https://i.imgur.com/QLQOzWl.png |Y          |5        |
+|1        |맥도날드       |2          |맥스파이시 상하이 |4500         |4900      |467    |https://i.imgur.com/pzdNKMr.png |Y          |5        |
+|1        |맥도날드       |3          |함박버거      |3500         |4300      |412    |https://i.imgur.com/rpGn3fu.png |Y          |5        |
+|1        |맥도날드       |4          |토마토디럭스    |5000         |6600      |522    |https://i.imgur.com/Yx7jHF1.png |Y          |5        |
+|1        |맥도날드       |5          |골든에그치즈    |7600         |9000      |707    |https://i.imgur.com/PJgj7Fn.png |Y          |5        |
+|1        |맥도날드       |6          |더블1955    |6600         |8000      |724    |https://i.imgur.com/oj1X1b8.png |Y          |5        |
+|1        |맥도날드       |23         |쿼터파운드     |4800         |5800      |577    |https://i.imgur.com/woFBV1b.png |Y          |5        |
+|1        |맥도날드       |24         |메가맥       |8000         |9000      |807    |https://i.imgur.com/nJFV08c.png |Y          |5        |
+|1        |맥도날드       |25         |그릴드 머쉬룸   |7000         |8000      |780    |https://i.imgur.com/5AJxan1.png |Y          |5        |
+|1        |맥도날드       |26         |슈슈버거      |4900         |6600      |558    |https://i.imgur.com/JmtZeIT.png |Y          |5        |
+|1        |맥도날드       |27         |햄버거       |4600         |4900      |476    |https://i.imgur.com/QgUdbqM.png |Y          |5        |
+|1        |맥도날드       |28         |슈비버거      |4900         |5500      |577    |https://i.imgur.com/giNge5P.png |Y          |5        |
+|1        |맥도날드       |29         |크리스피 치킨   |5500         |6600      |580    |https://i.imgur.com/271FQYX.png |Y          |5        |
+|2        |롯데리아       |7          |불고기버거     |3800         |5800      |442    |https://i.imgur.com/pObRYbX.jpg |Y          |5        |
+|2        |롯데리아       |8          |와규        |3000         |4500      |500    |https://i.imgur.com/mGbQtXz.jpg |Y          |5        |
+|2        |롯데리아       |9          |t-rex     |123          |456       |777    |https://i.imgur.com/uGaSOwZ.jpg |Y          |5        |
+|2        |롯데리아       |10         |새우버거      |4800         |5900      |560    |https://i.imgur.com/JFHz7gj.jpg |Y          |5        |
+|2        |롯데리아       |11         |모쩨렐라      |3900         |4500      |567    |https://i.imgur.com/eM7g9xi.jpg |Y          |5        |
+|2        |롯데리아       |13         |모짜더블      |3900         |4500      |574    |https://i.imgur.com/W7Jcnv4.jpg |Y          |5        |
+|2        |롯데리아       |14         |모짜 베이컨    |4700         |6600      |785    |https://i.imgur.com/o2fUHAj.jpg |Y          |5        |
+|2        |롯데리아       |15         |핫 크리스피    |4800         |5500      |465    |https://i.imgur.com/eW9mBu2.jpg |Y          |5        |
+|2        |롯데리아       |16         |한우 불고기    |6000         |7800      |755    |https://i.imgur.com/ss2KEXW.jpg |Y          |5        |
+|2        |롯데리아       |17         |클래식 치즈    |6600         |7700      |777    |https://i.imgur.com/I3IqRxO.jpg |Y          |5        |
+|2        |롯데리아       |18         |치킨버거      |4500         |6800      |453    |https://i.imgur.com/MqWgvow.jpg |Y          |5        |
+|2        |롯데리아       |19         |불고기버거     |3500         |4500      |580    |https://i.imgur.com/5edv5B4.jpg |Y          |5        |
+|2        |롯데리아       |20         |빅불        |4800         |5900      |580    |https://i.imgur.com/kzUvBJm.jpg |Y          |5        |
+|2        |롯데리아       |21         |바베큐버거     |4600         |6700      |574    |https://i.imgur.com/mpZNfPb.jpg |Y          |5        |
+|2        |롯데리아       |22         |az버거      |6000         |7000      |897    |https://i.imgur.com/JzZEk1C.jpg |Y          |5        |
+|3        |버거킹        |30         |와퍼        |6600         |7600      |680    |https://i.imgur.com/fNN6tPe.png |Y          |5        |
+|4        |맘스터치       |31         |싸이버거      |4800         |5800      |660    |https://i.imgur.com/DvOfUax.jpg |Y          |5        |
+|---------|-----------|-----------|----------|-------------|----------|-------|--------------------------------|-----------|---------|
+ 
+2019-04-22 17:35:44 [http-nio-8001-exec-5] DEBUG c.e.d.a.d.B.selectBurgerInfoList - <==      Total: 30 
+2019-04-22 17:35:44 [http-nio-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1cb978ac] 
+2019-04-22 17:55:15 [http-nio-8001-exec-7] INFO  c.e.d.a.c.SelectBurgerController - [StatisticsController] Burger 리스트 조회 
+2019-04-22 17:55:15 [http-nio-8001-exec-7] INFO  c.e.d.a.s.SelectBurgerServiceImpl - [StatisticsServiceImpl] selectBurgerInfoList Service 
+2019-04-22 17:55:15 [http-nio-8001-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession 
+2019-04-22 17:55:15 [http-nio-8001-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3e786b43] was not registered for synchronization because synchronization is not active 
+2019-04-22 17:55:15 [http-nio-8001-exec-7] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@817857276 wrapping net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@34800033] will not be managed by Spring 
+2019-04-22 17:55:15 [http-nio-8001-exec-7] DEBUG c.e.d.a.d.B.selectBurgerInfoList - ==>  Preparing: SELECT /*+ [demo-api].com.example.demo.api.dao.BurgerDAO.selectCustomerLoyaltyDailyInfoList */ a.chain_no , a.chain_name , b.product_no , b.menu_name , b.single_price , b.set_price , b.calory , b.img_url , b.display_yn , b.category FROM chain_store a INNER JOIN products b ON a.chain_no = b.chain_no  
+2019-04-22 17:55:15 [http-nio-8001-exec-7] DEBUG c.e.d.a.d.B.selectBurgerInfoList - ==> Parameters:  
+2019-04-22 17:55:15 [http-nio-8001-exec-7] DEBUG jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+51. SELECT /*+ [demo-api].com.example.demo.api.dao.BurgerDAO.selectCustomerLoyaltyDailyInfoList */ 
+				   a.chain_no 
+			     , a.chain_name
+		         , b.product_no
+		         , b.menu_name
+		         , b.single_price
+		         , b.set_price
+		         , b.calory
+		         , b.img_url
+		         , b.display_yn
+                 , b.category
+		      FROM chain_store a
+	 INNER JOIN products b
+	        ON a.chain_no = b.chain_no
+ {executed in 9 msec} 
+2019-04-22 17:55:15 [http-nio-8001-exec-7] INFO  jdbc.resultsettable - 
+|---------|-----------|-----------|----------|-------------|----------|-------|--------------------------------|-----------|---------|
+|chain_no |chain_name |product_no |menu_name |single_price |set_price |calory |img_url                         |display_yn |category |
+|---------|-----------|-----------|----------|-------------|----------|-------|--------------------------------|-----------|---------|
+|1        |맥도날드       |1          |빅맥        |4900         |4900      |514    |https://i.imgur.com/QLQOzWl.png |Y          |5        |
+|1        |맥도날드       |2          |맥스파이시 상하이 |4500         |4900      |467    |https://i.imgur.com/pzdNKMr.png |Y          |5        |
+|1        |맥도날드       |3          |함박버거      |3500         |4300      |412    |https://i.imgur.com/rpGn3fu.png |Y          |5        |
+|1        |맥도날드       |4          |토마토디럭스    |5000         |6600      |522    |https://i.imgur.com/Yx7jHF1.png |Y          |5        |
+|1        |맥도날드       |5          |골든에그치즈    |7600         |9000      |707    |https://i.imgur.com/PJgj7Fn.png |Y          |5        |
+|1        |맥도날드       |6          |더블1955    |6600         |8000      |724    |https://i.imgur.com/oj1X1b8.png |Y          |5        |
+|1        |맥도날드       |23         |쿼터파운드     |4800         |5800      |577    |https://i.imgur.com/woFBV1b.png |Y          |5        |
+|1        |맥도날드       |24         |메가맥       |8000         |9000      |807    |https://i.imgur.com/nJFV08c.png |Y          |5        |
+|1        |맥도날드       |25         |그릴드 머쉬룸   |7000         |8000      |780    |https://i.imgur.com/5AJxan1.png |Y          |5        |
+|1        |맥도날드       |26         |슈슈버거      |4900         |6600      |558    |https://i.imgur.com/JmtZeIT.png |Y          |5        |
+|1        |맥도날드       |27         |햄버거       |4600         |4900      |476    |https://i.imgur.com/QgUdbqM.png |Y          |5        |
+|1        |맥도날드       |28         |슈비버거      |4900         |5500      |577    |https://i.imgur.com/giNge5P.png |Y          |5        |
+|1        |맥도날드       |29         |크리스피 치킨   |5500         |6600      |580    |https://i.imgur.com/271FQYX.png |Y          |5        |
+|2        |롯데리아       |7          |불고기버거     |3800         |5800      |442    |https://i.imgur.com/pObRYbX.jpg |Y          |5        |
+|2        |롯데리아       |8          |와규        |3000         |4500      |500    |https://i.imgur.com/mGbQtXz.jpg |Y          |5        |
+|2        |롯데리아       |9          |t-rex     |123          |456       |777    |https://i.imgur.com/uGaSOwZ.jpg |Y          |5        |
+|2        |롯데리아       |10         |새우버거      |4800         |5900      |560    |https://i.imgur.com/JFHz7gj.jpg |Y          |5        |
+|2        |롯데리아       |11         |모쩨렐라      |3900         |4500      |567    |https://i.imgur.com/eM7g9xi.jpg |Y          |5        |
+|2        |롯데리아       |13         |모짜더블      |3900         |4500      |574    |https://i.imgur.com/W7Jcnv4.jpg |Y          |5        |
+|2        |롯데리아       |14         |모짜 베이컨    |4700         |6600      |785    |https://i.imgur.com/o2fUHAj.jpg |Y          |5        |
+|2        |롯데리아       |15         |핫 크리스피    |4800         |5500      |465    |https://i.imgur.com/eW9mBu2.jpg |Y          |5        |
+|2        |롯데리아       |16         |한우 불고기    |6000         |7800      |755    |https://i.imgur.com/ss2KEXW.jpg |Y          |5        |
+|2        |롯데리아       |17         |클래식 치즈    |6600         |7700      |777    |https://i.imgur.com/I3IqRxO.jpg |Y          |5        |
+|2        |롯데리아       |18         |치킨버거      |4500         |6800      |453    |https://i.imgur.com/MqWgvow.jpg |Y          |5        |
+|2        |롯데리아       |19         |불고기버거     |3500         |4500      |580    |https://i.imgur.com/5edv5B4.jpg |Y          |5        |
+|2        |롯데리아       |20         |빅불        |4800         |5900      |580    |https://i.imgur.com/kzUvBJm.jpg |Y          |5        |
+|2        |롯데리아       |21         |바베큐버거     |4600         |6700      |574    |https://i.imgur.com/mpZNfPb.jpg |Y          |5        |
+|2        |롯데리아       |22         |az버거      |6000         |7000      |897    |https://i.imgur.com/JzZEk1C.jpg |Y          |5        |
+|3        |버거킹        |30         |와퍼        |6600         |7600      |680    |https://i.imgur.com/fNN6tPe.png |Y          |5        |
+|4        |맘스터치       |31         |싸이버거      |4800         |5800      |660    |https://i.imgur.com/DvOfUax.jpg |Y          |5        |
+|---------|-----------|-----------|----------|-------------|----------|-------|--------------------------------|-----------|---------|
+ 
+2019-04-22 17:55:15 [http-nio-8001-exec-7] DEBUG c.e.d.a.d.B.selectBurgerInfoList - <==      Total: 30 
+2019-04-22 17:55:15 [http-nio-8001-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3e786b43] 
+2019-04-22 17:55:15 [http-nio-8001-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession 
+2019-04-22 17:55:15 [http-nio-8001-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@73666596] was not registered for synchronization because synchronization is not active 
+2019-04-22 17:55:15 [http-nio-8001-exec-7] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@957770030 wrapping net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@34800033] will not be managed by Spring 
+2019-04-22 17:55:15 [http-nio-8001-exec-7] DEBUG c.e.d.a.d.B.selectBurgerInfoList - ==>  Preparing: SELECT /*+ [demo-api].com.example.demo.api.dao.BurgerDAO.selectCustomerLoyaltyDailyInfoList */ a.chain_no , a.chain_name , b.product_no , b.menu_name , b.single_price , b.set_price , b.calory , b.img_url , b.display_yn , b.category FROM chain_store a INNER JOIN products b ON a.chain_no = b.chain_no  
+2019-04-22 17:55:15 [http-nio-8001-exec-7] DEBUG c.e.d.a.d.B.selectBurgerInfoList - ==> Parameters:  
+2019-04-22 17:55:15 [http-nio-8001-exec-7] DEBUG jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+51. SELECT /*+ [demo-api].com.example.demo.api.dao.BurgerDAO.selectCustomerLoyaltyDailyInfoList */ 
+				   a.chain_no 
+			     , a.chain_name
+		         , b.product_no
+		         , b.menu_name
+		         , b.single_price
+		         , b.set_price
+		         , b.calory
+		         , b.img_url
+		         , b.display_yn
+                 , b.category
+		      FROM chain_store a
+	 INNER JOIN products b
+	        ON a.chain_no = b.chain_no
+ {executed in 8 msec} 
+2019-04-22 17:55:15 [http-nio-8001-exec-7] INFO  jdbc.resultsettable - 
+|---------|-----------|-----------|----------|-------------|----------|-------|--------------------------------|-----------|---------|
+|chain_no |chain_name |product_no |menu_name |single_price |set_price |calory |img_url                         |display_yn |category |
+|---------|-----------|-----------|----------|-------------|----------|-------|--------------------------------|-----------|---------|
+|1        |맥도날드       |1          |빅맥        |4900         |4900      |514    |https://i.imgur.com/QLQOzWl.png |Y          |5        |
+|1        |맥도날드       |2          |맥스파이시 상하이 |4500         |4900      |467    |https://i.imgur.com/pzdNKMr.png |Y          |5        |
+|1        |맥도날드       |3          |함박버거      |3500         |4300      |412    |https://i.imgur.com/rpGn3fu.png |Y          |5        |
+|1        |맥도날드       |4          |토마토디럭스    |5000         |6600      |522    |https://i.imgur.com/Yx7jHF1.png |Y          |5        |
+|1        |맥도날드       |5          |골든에그치즈    |7600         |9000      |707    |https://i.imgur.com/PJgj7Fn.png |Y          |5        |
+|1        |맥도날드       |6          |더블1955    |6600         |8000      |724    |https://i.imgur.com/oj1X1b8.png |Y          |5        |
+|1        |맥도날드       |23         |쿼터파운드     |4800         |5800      |577    |https://i.imgur.com/woFBV1b.png |Y          |5        |
+|1        |맥도날드       |24         |메가맥       |8000         |9000      |807    |https://i.imgur.com/nJFV08c.png |Y          |5        |
+|1        |맥도날드       |25         |그릴드 머쉬룸   |7000         |8000      |780    |https://i.imgur.com/5AJxan1.png |Y          |5        |
+|1        |맥도날드       |26         |슈슈버거      |4900         |6600      |558    |https://i.imgur.com/JmtZeIT.png |Y          |5        |
+|1        |맥도날드       |27         |햄버거       |4600         |4900      |476    |https://i.imgur.com/QgUdbqM.png |Y          |5        |
+|1        |맥도날드       |28         |슈비버거      |4900         |5500      |577    |https://i.imgur.com/giNge5P.png |Y          |5        |
+|1        |맥도날드       |29         |크리스피 치킨   |5500         |6600      |580    |https://i.imgur.com/271FQYX.png |Y          |5        |
+|2        |롯데리아       |7          |불고기버거     |3800         |5800      |442    |https://i.imgur.com/pObRYbX.jpg |Y          |5        |
+|2        |롯데리아       |8          |와규        |3000         |4500      |500    |https://i.imgur.com/mGbQtXz.jpg |Y          |5        |
+|2        |롯데리아       |9          |t-rex     |123          |456       |777    |https://i.imgur.com/uGaSOwZ.jpg |Y          |5        |
+|2        |롯데리아       |10         |새우버거      |4800         |5900      |560    |https://i.imgur.com/JFHz7gj.jpg |Y          |5        |
+|2        |롯데리아       |11         |모쩨렐라      |3900         |4500      |567    |https://i.imgur.com/eM7g9xi.jpg |Y          |5        |
+|2        |롯데리아       |13         |모짜더블      |3900         |4500      |574    |https://i.imgur.com/W7Jcnv4.jpg |Y          |5        |
+|2        |롯데리아       |14         |모짜 베이컨    |4700         |6600      |785    |https://i.imgur.com/o2fUHAj.jpg |Y          |5        |
+|2        |롯데리아       |15         |핫 크리스피    |4800         |5500      |465    |https://i.imgur.com/eW9mBu2.jpg |Y          |5        |
+|2        |롯데리아       |16         |한우 불고기    |6000         |7800      |755    |https://i.imgur.com/ss2KEXW.jpg |Y          |5        |
+|2        |롯데리아       |17         |클래식 치즈    |6600         |7700      |777    |https://i.imgur.com/I3IqRxO.jpg |Y          |5        |
+|2        |롯데리아       |18         |치킨버거      |4500         |6800      |453    |https://i.imgur.com/MqWgvow.jpg |Y          |5        |
+|2        |롯데리아       |19         |불고기버거     |3500         |4500      |580    |https://i.imgur.com/5edv5B4.jpg |Y          |5        |
+|2        |롯데리아       |20         |빅불        |4800         |5900      |580    |https://i.imgur.com/kzUvBJm.jpg |Y          |5        |
+|2        |롯데리아       |21         |바베큐버거     |4600         |6700      |574    |https://i.imgur.com/mpZNfPb.jpg |Y          |5        |
+|2        |롯데리아       |22         |az버거      |6000         |7000      |897    |https://i.imgur.com/JzZEk1C.jpg |Y          |5        |
+|3        |버거킹        |30         |와퍼        |6600         |7600      |680    |https://i.imgur.com/fNN6tPe.png |Y          |5        |
+|4        |맘스터치       |31         |싸이버거      |4800         |5800      |660    |https://i.imgur.com/DvOfUax.jpg |Y          |5        |
+|---------|-----------|-----------|----------|-------------|----------|-------|--------------------------------|-----------|---------|
+ 
+2019-04-22 17:55:15 [http-nio-8001-exec-7] DEBUG c.e.d.a.d.B.selectBurgerInfoList - <==      Total: 30 
+2019-04-22 17:55:15 [http-nio-8001-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@73666596] 

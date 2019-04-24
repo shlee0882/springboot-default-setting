@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.demo.api.dao.BurgerDAO">
+
+<select id="selectBurgerInfoList" parameterType="com.example.demo.api.model.burger.BurgerVO" resultType="com.example.demo.api.model.burger.BurgerVO">	
+	SELECT /*+ [demo-api].com.example.demo.api.dao.BurgerDAO.selectCustomerLoyaltyDailyInfoList */ 
+				   a.chain_no 
+			     , a.chain_name
+		         , b.product_no
+		         , b.menu_name
+		         , b.single_price
+		         , b.set_price
+		         , b.calory
+		         , b.img_url
+		         , b.display_yn
+                 , b.category
+		      FROM chain_store a
+	 INNER JOIN products b
+	        ON a.chain_no = b.chain_no
+	
+</select>
+
+<!-- 참고 문법 -->
+<!-- 	<where> -->
+<!-- 		<choose> -->
+<!-- 			<when test='tradeMonth != "" and tradeMonth != null '> -->
+<!-- 				TO_CHAR(TO_DATE(a.trade_date,'yyyymmdd'),'yyyymm') = TO_CHAR(TO_DATE(#{tradeMonth},'yyyymm'),'yyyymm') -->
+<!-- 			</when>			 -->
+<!-- 			<otherwise> -->
+<!-- 				TO_CHAR(TO_DATE(a.trade_date,'yyyymmdd'),'yyyymm') = TO_CHAR(SYSDATE-1,'yyyymm') -->
+<!-- 			</otherwise> -->
+<!-- 		</choose>			 -->
+<!-- 	</where> -->
+
+<!-- 			<foreach collection="tradeDateList" item="item" index="index" open="(" separator="," close=")"> -->
+<!-- 	        	#{item} -->
+<!-- 	        </foreach>     -->
+
+<!-- <![CDATA[<=]]> -->
+</mapper>

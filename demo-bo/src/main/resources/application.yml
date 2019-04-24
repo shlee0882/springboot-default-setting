@@ -1,0 +1,128 @@
+#############
+### 공통 
+##############
+# embeded tomcat
+server:
+  servlet:
+    context-path: /demo-bo  
+  tomcat:
+    uri-encoding: UTF-8  
+    
+spring:
+  profiles:
+    active: local        
+  # APPLICATION SETTINGS (SpringApplication)
+  main:
+    show-banner: true    
+  # favicon
+  mvc.favicon.enabled: false
+  # HTTP encoding (HttpEncodingProperties)
+  http:
+    encoding:
+      charset: UTF-8 # the encoding of HTTP requests/responses
+      enabled: true # enable http encoding support
+      force: true # force the configured encoding   
+  jackson:    
+    serialization:      
+      write-dates-as-timestamps: false
+      
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration
+    
+  thymeleaf:  #thymeleaf
+    enabled: true   
+
+  mvc:    
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp            
+    contentnegotiation:
+      favor-parameter: true
+      favor-path-extension: true       
+       
+      
+  session:
+    store-type: redis  
+    
+logging:
+  config: classpath:logback-spring.xml
+ 
+ 
+---
+
+
+##############
+### local
+##############
+env:
+  profile :  local
+
+# embeded tomcat
+server:
+  port: 8585
+
+tomcat:
+  ajp:
+    protocol: AJP/1.3
+    port: 8059    
+    
+spring:
+  profiles: local
+  servlet:
+    multipart:
+      max-file-size: -1
+  thymeleaf:
+   cache: false   
+
+api:
+  demo:
+    server: http://127.0.0.1:8001/demo-api
+    keyName: apikey
+    version: v1
+    keyValue: 1234  
+
+file:
+  downLoadPath: d:\\Temp\\
+
+logging:  
+  level:  
+    com.example.demo.bo: DEBUG
+    
+---
+##############
+### dev
+##############
+env:
+  profile :  dev
+
+# embeded tomcat
+server:
+  port: 8085
+    
+tomcat:
+  ajp:
+    protocol: AJP/1.3
+    port: 8009   
+        
+spring:
+  profiles: dev
+  thymeleaf:
+   cache: true 
+  
+api:
+  demo:
+    server: http://127.0.0.1:8001/demo-api
+    keyName: apikey
+    version: v1
+    keyValue: 1234
+    
+file:
+  downLoadPath: /home/wasadm/data/download/    
+
+logging:  
+  level:  
+    com.example.demo.bo: DEBUG  
+         
+    
+
+
