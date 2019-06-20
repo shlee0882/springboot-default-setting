@@ -5,7 +5,10 @@
   <br/>demo-api : https://github.com/shlee0882/springboot-api-default-setting.git
   <br/>demo-bo  : https://github.com/shlee0882/springboot-bo-default-setting.git
 
-<br/>
+- pom.xml의 ojdbc.jar down 오류 발생 시 
+<br/>\.m2\repository\com\oracle\ojdbc6\12.1.0.1-atlassian-hosted 경로에
+<br/>ojdbc6-12.1.0.1-atlassian-hosted.jar파일을 넣어준다.
+<br/>sts 설치 후 lombok 실행 후 설치한다. maven update 한다.
 
 ## 요약
 - spring boot를 이용해 demo-api(로직,쿼리), demo-bo(화면)로 분리하여 기본셋팅(default setting)하였습니다.
