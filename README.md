@@ -3,8 +3,8 @@
 - STS 사용해서 추가시 
 
   - import > Check Out Maven Projects from SCM > git url 입력
-<br/>demo-bo  : https://github.com/shlee0882/springboot-bo-default-setting  
-<br/>demo-api : https://github.com/shlee0882/springboot-api-default-setting
+    - demo-bo  : https://github.com/shlee0882/springboot-bo-default-setting
+    - demo-api : https://github.com/shlee0882/springboot-api-default-setting
 
 - pom.xml의 ojdbc.jar down 오류 발생 시 
 <br/>\.m2\repository\com\oracle\ojdbc6\12.1.0.1-atlassian-hosted 경로에
